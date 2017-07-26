@@ -4,6 +4,7 @@ __pycache__/
 
 # Java
 *.class
+out/
 
 # IDEA
 .idea/

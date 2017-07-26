@@ -1,3 +1,5 @@
+package searching.linear.java;
+
 import java.util.Objects;
 
 public final class Contrived {

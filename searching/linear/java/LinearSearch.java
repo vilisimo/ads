@@ -1,4 +1,4 @@
-import java.util.List;
+package searching.linear.java;
 
 public class LinearSearch {
     public <E> int search(E[] collection, E target) {
