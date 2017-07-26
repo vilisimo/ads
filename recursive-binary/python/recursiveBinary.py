@@ -8,35 +8,6 @@
 def search(collection, target):
     if collection is None or not target:
         raise TypeError("Arguments cannot be of type None")
-    if len(collection) == 0:
-        return -1
-
-    low = 0
-    high = len(collection) - 1
-
-    while low <= high:
-        middle = (low + high) // 2
-        guess = collection[middle]
-        
-        if (guess == target):
-            return middle
-        elif (collection[middle] > target):
-            high = middle - 1
-
-        else: 
-            low = middle + 1
-
-    return -1
-
-def search(collection, target):
-    try:
-        if len(collection) == 0:
-            return -1
-    except TypeError:
-        raise TypeError("Arguments cannot be of type None")
-
-    if not target:
-        raise TypeError("Arguments cannot be of type None")    
         
     bottom = 0
     top = len(collection) - 1
