@@ -1,4 +1,4 @@
-package searching.linear.java;
+package algorithms.searching.linear.java;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package searching.linear.java;
+package algorithms.searching.linear.java;
 
 public class LinearSearch {
     public <E> int search(E[] collection, E target) {
