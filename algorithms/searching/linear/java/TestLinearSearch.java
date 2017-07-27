@@ -53,7 +53,7 @@ public class TestLinearSearch {
     }
 
     @Test
-    public void repeatingNumbersReturnFirstOccurence() {
+    public void repeatingNumbersReturnFirstOccurrence() {
         int actual = linearSearch.search(new Integer[] {1, 2, 2, 3}, 2);
 
         assertThat(actual, is(1));
