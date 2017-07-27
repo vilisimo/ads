@@ -1,9 +1,8 @@
-# Note: for repeating numbers, this algorithm will not
-# always be correct. In order to make it so, one would
-# need to include additional steps to ensure that the
-# found value is lower than the one before it, and, if
-# necessary, find the first repeating value (for example,
-# iterating backwards until it is found)
+# Note: for repeating numbers, this algorithm will not always find a first
+# occurrence. In order to make it so, one would need to include additional
+# steps to ensure that the found value is lower than the one before it, and,
+# if necessary, find the first repeating value (for example, iterating
+# backwards until it is found)
 
 def search(collection, target):
     if collection is None or not target:

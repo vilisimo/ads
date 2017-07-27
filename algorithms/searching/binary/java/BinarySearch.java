@@ -1,5 +1,12 @@
 package algorithms.searching.binary.java;
 
+/**
+ * Note: for repeating numbers, this algorithm will not always find a first
+ * occurrence. In order to make it so, one would need to include additional
+ * steps to ensure that the found value is lower than the one before it, and,
+ * if necessary, find the first repeating value (for example, iterating
+ * backwards until it is found)
+ * */
 public class BinarySearch {
     public static <E extends Comparable<E>> int search(E[] collection, E target) {
         if (collection == null || target == null) {
