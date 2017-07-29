@@ -1,6 +1,6 @@
 package algorithms.searching.recursive.binary.java;
 
-import algorithms.searching.binary.java.Contrived;
+import helpers.objects.Contrived;
 import org.junit.Test;
 
 import static algorithms.searching.recursive.binary.java.RecursiveBinarySearch.search;

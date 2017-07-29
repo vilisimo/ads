@@ -1,5 +1,6 @@
 package algorithms.searching.linear.java;
 
+import helpers.objects.Contrived;
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.is;

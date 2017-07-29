@@ -1,5 +1,6 @@
 package algorithms.searching.binary.java;
 
+import helpers.objects.Contrived;
 import org.junit.Test;
 
 import static algorithms.searching.binary.java.BinarySearch.search;
