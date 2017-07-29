@@ -15,10 +15,10 @@ def search(collection, target):
 
 
 def recursive_search(collection, bottom, top, target):
-    mid = (bottom + top) // 2
-
     if bottom > top:
         return -1
+
+    mid = (bottom + top) // 2
 
     if collection[mid] == target:
         return mid;
