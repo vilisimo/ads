@@ -19,7 +19,8 @@ def recursive_search(collection, bottom, top, target):
 
     if bottom > top:
         return -1
-    elif collection[mid] == target:
+
+    if collection[mid] == target:
         return mid;
     elif collection[mid] > target:
         return recursive_search(collection, bottom, mid - 1, target)
