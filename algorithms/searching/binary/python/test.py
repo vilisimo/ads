@@ -1,13 +1,7 @@
-import os
-import sys
 import unittest
 
-from binarySearch import search
-
-os.chdir('../../../../helpers/objects/')
-sys.path.append(os.getcwd())
-
-from contrived import Contrived
+from algorithms.searching.binary.python.binarySearch import search
+from helpers.objects.contrived import Contrived
 
 
 class TestBinarySearch(unittest.TestCase):

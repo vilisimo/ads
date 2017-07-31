@@ -6,4 +6,4 @@ def search(collection, target):
         if element == target:
             return index
 
-    return -1;
+    return -1

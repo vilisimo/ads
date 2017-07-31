@@ -1,12 +1,7 @@
-import os
-import sys
 import unittest
 
-from selection import sort
-
-os.chdir('../../../../helpers/objects')
-sys.path.append(os.getcwd())
-from contrived import Contrived
+from algorithms.sorting.selection.python.selection import sort
+from helpers.objects.contrived import Contrived
 
 
 class TestSelectionSort(unittest.TestCase):

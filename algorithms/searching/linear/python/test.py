@@ -1,13 +1,7 @@
-import os
-import sys
 import unittest
 
-from linearSearch import search
-
-os.chdir('../../../../helpers/objects/')
-sys.path.append(os.getcwd())
-
-from contrived import Contrived
+from algorithms.searching.linear.python.linearSearch import search
+from helpers.objects.contrived import Contrived
 
 
 class TestLinearSearch(unittest.TestCase):

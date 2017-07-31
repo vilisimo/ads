@@ -1,13 +1,7 @@
-import os
-import sys
 import unittest
 
-from recursiveBinary import search
-
-os.chdir('../../../../../helpers/objects/')
-sys.path.append(os.getcwd())
-
-from contrived import Contrived
+from algorithms.searching.recursive.binary.python.recursiveBinary import search
+from helpers.objects.contrived import Contrived
 
 
 class TestRecursiveBinarySearch(unittest.TestCase):
@@ -72,6 +66,7 @@ class TestRecursiveBinarySearch(unittest.TestCase):
         actual = search(collection=items, target=Contrived("b", 2))
 
         self.assertEqual(1, actual)
+
 
 if __name__ == '__main__':
     unittest.main()
