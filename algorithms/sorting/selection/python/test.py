@@ -1,5 +1,13 @@
+import os
+import sys
 import unittest
+
 from selection import sort
+
+os.chdir('../../../../helpers/objects')
+sys.path.append(os.getcwd())
+from contrived import Contrived
+
 
 class TestSelectionSort(unittest.TestCase):
 
@@ -37,6 +45,13 @@ class TestSelectionSort(unittest.TestCase):
 
         self.assertListEqual(collection, expected)
 
+    def test_custom_objects(self):
+        items = [Contrived("a", 3), Contrived("a", 1), Contrived("b", 13)]
+        expected = [Contrived("a", 1), Contrived("a", 3), Contrived("b", 13)]
+
+        sort(items)
+
+        self.assertListEqual(items, expected)
 
 if __name__ == '__main__':
     unittest.main()

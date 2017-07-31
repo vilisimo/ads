@@ -4,6 +4,7 @@
 # if necessary, find the first repeating value (for example, iterating
 # backwards until it is found)
 
+
 def search(collection, target):
     if collection is None or not target:
         raise TypeError("Arguments cannot be of type None")

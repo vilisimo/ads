@@ -1,5 +1,14 @@
+import os
+import sys
 import unittest
+
 from binarySearch import search
+
+os.chdir('../../../../helpers/objects/')
+sys.path.append(os.getcwd())
+
+from contrived import Contrived
+
 
 class TestBinarySearch(unittest.TestCase):
 
@@ -57,6 +66,12 @@ class TestBinarySearch(unittest.TestCase):
         actual = search(collection=letters, target='j')
 
         self.assertEqual(3, actual)
+
+    def test_custom_objects(self):
+        items = [Contrived("a", 1), Contrived("b", 2), Contrived("c", 3)]
+        actual = search(collection=items, target=Contrived("b", 2))
+
+        self.assertEqual(1, actual)
 
 
 if __name__ == '__main__':
