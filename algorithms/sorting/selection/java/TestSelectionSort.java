@@ -1,6 +1,6 @@
 package algorithms.sorting.selection.java;
 
-import helpers.objects.Contrived;
+import helpers.objects.java.Contrived;
 import org.junit.Test;
 
 import static algorithms.sorting.selection.java.SelectionSort.sort;

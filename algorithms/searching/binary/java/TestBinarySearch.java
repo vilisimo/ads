@@ -1,13 +1,13 @@
 package algorithms.searching.binary.java;
 
-import helpers.objects.Contrived;
+import helpers.objects.java.Contrived;
 import org.junit.Test;
 
 import static algorithms.searching.binary.java.BinarySearch.search;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
-public class BinarySearchTest {
+public class TestBinarySearch {
  
     @Test(expected=IllegalArgumentException.class)
     public void nullCollectionThrowsException() {

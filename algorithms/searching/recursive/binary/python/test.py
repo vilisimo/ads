@@ -1,7 +1,7 @@
 import unittest
 
 from algorithms.searching.recursive.binary.python.recursiveBinary import search
-from helpers.objects.contrived import Contrived
+from helpers.objects.python.contrived import Contrived
 
 
 class TestRecursiveBinarySearch(unittest.TestCase):

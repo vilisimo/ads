@@ -1,7 +1,7 @@
 import unittest
 
 from algorithms.sorting.selection.python.selection import sort
-from helpers.objects.contrived import Contrived
+from helpers.objects.python.contrived import Contrived
 
 
 class TestSelectionSort(unittest.TestCase):

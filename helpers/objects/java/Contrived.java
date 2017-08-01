@@ -1,4 +1,4 @@
-package helpers.objects;
+package helpers.objects.java;
 
 import java.util.Objects;
 
@@ -15,7 +15,7 @@ public final class Contrived implements Comparable<Contrived> {
         this.letter = letter;
     }
 
-    private int sum() {
+    private final int sum() {
         return this.number + this.letter;
     }
 
@@ -48,5 +48,10 @@ public final class Contrived implements Comparable<Contrived> {
         }
 
         return -1;
+    }
+
+    @Override
+    public String toString() {
+        return "Contrived: " + this.number + ":" + this.letter;
     }
 }

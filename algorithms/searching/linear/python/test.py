@@ -1,7 +1,7 @@
 import unittest
 
 from algorithms.searching.linear.python.linearSearch import search
-from helpers.objects.contrived import Contrived
+from helpers.objects.python.contrived import Contrived
 
 
 class TestLinearSearch(unittest.TestCase):
