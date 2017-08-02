@@ -8,6 +8,7 @@
 * [Linear Search](../../tree/master/algorithms/searching/linear/)
 
 ### Sorting Algorithms
+* [Insertion Sort](../../tree/master/algorithms/sorting/insertion/)
 * [Selection Sort](../../tree/master/algorithms/sorting/selection/)
 
 
