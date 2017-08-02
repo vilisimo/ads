@@ -6,7 +6,7 @@ from helpers.objects.python.contrived import Contrived
 
 class TestSelectionSort(unittest.TestCase):
 
-    def test_sorting_epty_list_returns_empty_list(self):
+    def test_sorting_empty_list_returns_empty_list(self):
         collection = []
         
         sort(collection)
@@ -47,6 +47,7 @@ class TestSelectionSort(unittest.TestCase):
         sort(items)
 
         self.assertListEqual(items, expected)
+
 
 if __name__ == '__main__':
     unittest.main()

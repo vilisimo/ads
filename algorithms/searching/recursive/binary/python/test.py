@@ -31,13 +31,13 @@ class TestRecursiveBinarySearch(unittest.TestCase):
 
         self.assertEqual(2, actual)
 
-    def test_cornercase_low(self):
+    def test_corner_case_low(self):
         numbers = [1, 2, 3, 4]
         actual = search(collection=numbers, target=1)
 
         self.assertEqual(0, actual)
 
-    def test_cornercase_high(self):
+    def test_corner_case_high(self):
         numbers = [3, 11, 27, 41]
         actual = search(collection=numbers, target=41)
 
