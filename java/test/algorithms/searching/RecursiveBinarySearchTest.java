@@ -1,14 +1,14 @@
-package algorithms.searching.binary.java;
+package algorithms.searching;
 
-import helpers.objects.java.Contrived;
+import helpers.Contrived;
 import org.junit.Test;
 
-import static algorithms.searching.binary.java.BinarySearch.search;
+import static algorithms.searching.RecursiveBinarySearch.search;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
-public class TestBinarySearch {
- 
+public class RecursiveBinarySearchTest {
+
     @Test(expected=IllegalArgumentException.class)
     public void nullCollectionThrowsException() {
         search(null, null);
@@ -80,5 +80,4 @@ public class TestBinarySearch {
 
         assertThat(actual, is(2));
     }
-
 }

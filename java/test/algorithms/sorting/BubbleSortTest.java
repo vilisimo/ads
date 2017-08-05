@@ -1,13 +1,13 @@
-package algorithms.sorting.bubble.java;
+package algorithms.sorting;
 
-import helpers.objects.java.Contrived;
+import helpers.Contrived;
 import org.junit.Test;
 
-import static algorithms.sorting.bubble.java.BubbleSort.sort;
+import static algorithms.sorting.BubbleSort.sort;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
-public class TestBubbleSort {
+public class BubbleSortTest {
 
     @Test
     public void sortsCollection() {
@@ -60,7 +60,7 @@ public class TestBubbleSort {
     }
 
     @Test(expected=IllegalArgumentException.class)
-    public void nullValuesThrowIllegalArgumentExcpetion() {
+    public void nullValuesThrowIllegalArgumentException() {
         sort(null);
     }
 }

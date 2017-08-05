@@ -8,6 +8,7 @@ out/
 
 # IDEA
 .idea/
+java.iml
 
 # Todo list
 TODO.md

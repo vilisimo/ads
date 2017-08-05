@@ -1,4 +1,4 @@
-package algorithms.searching.recursive.binary.java;
+package algorithms.searching;
 
 /**
  * Note: for repeating numbers, this algorithm will not always find a first

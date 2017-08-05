@@ -1,62 +1,62 @@
-package algorithms.searching.recursive.binary.java;
+package algorithms.searching;
 
-import helpers.objects.java.Contrived;
+import helpers.Contrived;
 import org.junit.Test;
 
-import static algorithms.searching.recursive.binary.java.RecursiveBinarySearch.search;
+import static algorithms.searching.BinarySearch.search;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
-public class RecursiveBinarySearchTest {
- 
-    @Test(expected=IllegalArgumentException.class)
+public class BinarySearchTest {
+
+    @Test(expected = IllegalArgumentException.class)
     public void nullCollectionThrowsException() {
         search(null, null);
     }
 
-    @Test(expected=IllegalArgumentException.class)
+    @Test(expected = IllegalArgumentException.class)
     public void nullTargetThrowsException() {
-        search(new Integer[] {1}, null);
+        search(new Integer[]{1}, null);
     }
 
     @Test
     public void emptyCollectionReturnsMinusOne() {
-        int actual = search(new Integer[] {}, 1);
+        int actual = search(new Integer[]{}, 1);
 
         assertThat(actual, is(-1));
     }
 
     @Test
     public void searchingForNonExistentElementReturnsMinusOne() {
-        int actual = search(new Integer[] {1, 2, 3}, 99);
+        int actual = search(new Integer[]{1, 2, 3}, 99);
 
         assertThat(actual, is(-1));
     }
 
     @Test
     public void searchForElementReturnsCorrectPosition() {
-        int actual = search(new Integer[] {3, 123, 3223}, 123);
+        int actual = search(new Integer[]{3, 123, 3223}, 123);
 
         assertThat(actual, is(1));
     }
 
     @Test
     public void searchForLowBoundaryElementReturnsCorrectPosition() {
-        int actual = search(new Integer[] {1, 2, 3}, 1);
+        int actual = search(new Integer[]{1, 2, 3}, 1);
 
         assertThat(actual, is(0));
     }
 
     @Test
     public void searchForHighBoundaryElementReturnsCorrectPosition() {
-        int actual = search(new Integer[] {1, 2, 3}, 3);
+        int actual = search(new Integer[]{1, 2, 3}, 3);
 
         assertThat(actual, is(2));
     }
 
     @Test
     public void repeatingNumbersReturnFirstOccurrence() {
-        int actual = search(new Integer[] {1, 2, 2, 3}, 2);
+        int actual = search(new Integer[]{1, 2, 2, 3}, 2);
 
         assertThat(actual, is(1));
     }
@@ -76,9 +76,9 @@ public class RecursiveBinarySearchTest {
 
     @Test
     public void searchUnsortedArrayFindsCorrectPosition() {
-        int actual = search(new Integer[] {2, 13, 4, 1, 33}, 4);
+        int actual = search(new Integer[]{2, 13, 4, 1, 33}, 4);
 
         assertThat(actual, is(2));
     }
-
 }
+

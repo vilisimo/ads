@@ -1,7 +1,7 @@
-package algorithms.searching.linear.java;
+package algorithms.searching;
 
 public class LinearSearch {
-    public <E> int search(E[] collection, E target) {
+    public static <E> int search(E[] collection, E target) {
         if (collection == null || target == null) {
             throw new IllegalArgumentException("Arguments cannot be null");
         }

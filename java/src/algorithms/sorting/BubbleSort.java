@@ -1,4 +1,4 @@
-package algorithms.sorting.bubble.java;
+package algorithms.sorting;
 
 public class BubbleSort {
     public static <E extends Comparable<E>> void sort(E[] items) {

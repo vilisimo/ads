@@ -1,4 +1,4 @@
-package helpers.objects.java;
+package helpers;
 
 import java.util.Objects;
 

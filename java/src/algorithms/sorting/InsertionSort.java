@@ -1,4 +1,4 @@
-package algorithms.sorting.insertion.java;
+package algorithms.sorting;
 
 public class InsertionSort {
     public static <E extends Comparable<E>> void sort(E[] items) {

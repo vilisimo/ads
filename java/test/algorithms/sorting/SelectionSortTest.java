@@ -1,13 +1,13 @@
-package algorithms.sorting.insertion.java;
+package algorithms.sorting;
 
-import helpers.objects.java.Contrived;
+import helpers.Contrived;
 import org.junit.Test;
 
-import static algorithms.sorting.insertion.java.InsertionSort.sort;
+import static algorithms.sorting.SelectionSort.sort;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
-public class TestInsertionSort {
+public class SelectionSortTest {
 
     @Test
     public void sortsCollection() {
@@ -53,14 +53,14 @@ public class TestInsertionSort {
     public void emptyCollectionReturnsEmptyCollection() {
         String[] items = {};
         String[] expected = {};
-        
+
         sort(items);
 
         assertThat(items, is(expected));
     }
 
     @Test(expected=IllegalArgumentException.class)
-    public void nullValuesThrowIllegalArgumentExcpetion() {
+    public void nullValuesThrowIllegalArgumentException() {
         sort(null);
     }
 }
