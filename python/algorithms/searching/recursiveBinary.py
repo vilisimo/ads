@@ -8,7 +8,7 @@
 def search(collection, target):
     if collection is None or not target:
         raise TypeError("Arguments cannot be of type None")
-        
+
     bottom = 0
     top = len(collection) - 1
 

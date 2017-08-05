@@ -1,7 +1,7 @@
 import unittest
 
-from algorithms.sorting.bubble.python.bubble import sort
-from helpers.objects.python.contrived import Contrived
+from algorithms.sorting.bubble import sort
+from helpers.contrived import Contrived
 
 
 class TestBubbleSort(unittest.TestCase):

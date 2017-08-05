@@ -15,13 +15,13 @@ def search(collection, target):
     while low <= high:
         middle = (low + high) // 2
         guess = collection[middle]
-        
+
         if guess == target:
             return middle
         elif collection[middle] > target:
             high = middle - 1
 
-        else: 
+        else:
             low = middle + 1
 
     return -1

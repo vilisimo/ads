@@ -1,10 +1,10 @@
 import unittest
 
-from algorithms.searching.binary.python.binarySearch import search
-from helpers.objects.python.contrived import Contrived
+from algorithms.searching.recursiveBinary import search
+from helpers.contrived import Contrived
 
 
-class TestBinarySearch(unittest.TestCase):
+class TestRecursiveBinarySearch(unittest.TestCase):
 
     def test_invalid_collection(self):
         with self.assertRaises(TypeError):

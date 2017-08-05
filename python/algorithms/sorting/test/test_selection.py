@@ -1,14 +1,13 @@
 import unittest
 
-from algorithms.sorting.insertion.python.insertion import sort
-from helpers.objects.python.contrived import Contrived
+from algorithms.sorting.selection import sort
+from helpers.contrived import Contrived
 
 
 class TestSelectionSort(unittest.TestCase):
-
     def test_sorting_empty_list_returns_empty_list(self):
         collection = []
-        
+
         sort(collection)
 
         self.assertFalse(collection)
@@ -27,7 +26,7 @@ class TestSelectionSort(unittest.TestCase):
     def test_sorting_sorts_in_order(self):
         collection = [3, 14, 1]
         expected = [1, 3, 14]
-        
+
         sort(collection)
 
         self.assertListEqual(collection, expected)

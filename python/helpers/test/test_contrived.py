@@ -1,6 +1,6 @@
 import unittest
 
-from helpers.objects.python.contrived import Contrived
+from helpers.contrived import Contrived
 
 
 class TestContrivedInitialization(unittest.TestCase):
