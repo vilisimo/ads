@@ -40,6 +40,16 @@ public class BubbleSortTest {
     }
 
     @Test
+    public void sortsSortedCollection() {
+        Integer[] items = {1, 2, 3, 4, 5, 6};
+        Integer[] expected = {1, 2, 3, 4, 5, 6};
+
+        sort(items);
+
+        assertThat(items, is(expected));
+    }
+
+    @Test
     public void sortsCollectionOfCustomObjects() {
         Contrived[] items = {new Contrived(19, 'a'), new Contrived(1, 'a'), new Contrived(3, 'b')};
         Contrived[] expected = {new Contrived(1, 'a'), new Contrived(3, 'b'), new Contrived(19, 'a')};
