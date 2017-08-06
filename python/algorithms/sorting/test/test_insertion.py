@@ -39,6 +39,14 @@ class TestSelectionSort(unittest.TestCase):
 
         self.assertListEqual(collection, expected)
 
+    def test_sorting_sorts_sorted(self):
+        collection = [1, 2, 3, 4, 5]
+        expected = [1, 2, 3, 4, 5]
+
+        sort(collection)
+
+        self.assertEqual(collection, expected)
+
     def test_custom_objects(self):
         items = [Contrived("a", 3), Contrived("a", 1), Contrived("b", 13)]
         expected = [Contrived("a", 1), Contrived("a", 3), Contrived("b", 13)]
