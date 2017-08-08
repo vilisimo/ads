@@ -2,7 +2,7 @@ package helpers;
 
 import java.lang.reflect.Array;
 
-public class ArrayMerger {
+public final class ArrayMerger {
 
     @SuppressWarnings("unchecked")
     public static <T> T[] mergeArrays(T[]... arrays) {
