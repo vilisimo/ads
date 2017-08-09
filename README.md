@@ -11,6 +11,8 @@
 * Bubble sort: [Java](../../blob/master/java/src/algorithms/sorting/BubbleSort.java), [Python](../../blob/master/python/algorithms/sorting/bubble.py)
 * Insertion Sort: [Java](../../blob/master/java/src/algorithms/sorting/InsertionSort.java), [Python](../../blob/master/python/algorithms/sorting/insertion.py)
 * Selection Sort: [Java](../../blob/master/java/src/algorithms/sorting/SelectionSort.java), [Python](../../blob/master/python/algorithms/sorting/selection.py)
+* Quicksort: [Java](../../blob/master/java/src/algorithms/sorting/QuickSort.java), [Python](../../blob/master/python/algorithms/sorting/quicksort.py)
+
 
 
 ## Launching Tests
