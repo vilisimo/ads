@@ -56,3 +56,40 @@ def _quicksort(items, first, last):
 
         _quicksort(items, first, tail)
         _quicksort(items, head, last)
+
+
+def qsort(items, first=0, last=None):
+    """
+    This version of quicksort always takes first element as a pivot.
+    It allows to achieve sorting without relatively complex logic.
+    """
+
+    if items is None:
+        raise TypeError("Collection cannot be of type None")
+
+    if last is None:
+        last = len(items) - 1
+
+    if first >= last:
+        return
+
+    pivot = partition(items, first, last)
+    qsort(items, first, pivot - 1)
+    qsort(items, pivot + 1, last)
+
+
+def partition(items, first, last):
+    pivot_pos = first
+
+    for index in range(first + 1, last + 1):
+        if items[index] <= items[first]:
+            pivot_pos += 1
+            # We know that items[pivot_pos] > pivot value we're
+            # comparing against, otherwise we would have switched it.
+            # Therefore, we can freely switch it with pivot[index]
+            items[index], items[pivot_pos] = items[pivot_pos], items[index]
+    # We have kept our pivot value at items[first]. Now we need
+    # to put it where it belongs (higher than all lower values)
+    items[pivot_pos], items[first] = items[first], items[pivot_pos]
+
+    return pivot_pos
