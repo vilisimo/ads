@@ -2,6 +2,12 @@ import random
 
 
 def sort(items):
+    """
+    Quicksort that has terrible space complexity. However, it demonstrates
+    the main idea of quicksort nicely: find a pivot, find lower and higher
+    elements than it, rinse and repeat.
+    """
+
     if items is None:
         raise TypeError("Collection cannot be of type None")
 
@@ -25,13 +31,16 @@ def sort(items):
 
 
 def quicksort(items):
-    """ In-place quicksort with random pivot """
-
-    if len(items) < 2:
-        return
+    """
+    In-place quicksort with random pivot. Minimizes recursion depth in case of
+    ordered collections.
+    """
 
     if items is None:
         raise TypeError("Collection cannot be of type None")
+
+    if len(items) < 2:
+        return
 
     _quicksort(items, 0, len(items) - 1)
 
