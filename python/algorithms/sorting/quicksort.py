@@ -27,6 +27,9 @@ def sort(items):
 def quicksort(items):
     """ In-place quicksort with random pivot """
 
+    if len(items) < 2:
+        return
+
     if items is None:
         raise TypeError("Collection cannot be of type None")
 
@@ -35,9 +38,6 @@ def quicksort(items):
 
 def _quicksort(items, first, last):
     if first >= last:
-        return
-
-    if len(items) < 2:
         return
 
     pivot = items[random.randint(first, last)]
