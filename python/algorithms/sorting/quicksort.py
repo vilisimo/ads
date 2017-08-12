@@ -63,8 +63,8 @@ def _quicksort(items, first, last):
             head += 1
             tail -= 1
 
-        _quicksort(items, first, tail)
-        _quicksort(items, head, last)
+    _quicksort(items, first, tail)
+    _quicksort(items, head, last)
 
 
 def qsort(items, first=0, last=None):
