@@ -1,5 +1,7 @@
 package algorithms.sorting;
 
+import static helpers.Swapper.swap;
+
 public class SelectionSort {
 
     public static <E extends Comparable<E>> void sort(E[] items) {
@@ -16,9 +18,7 @@ public class SelectionSort {
             }
 
             if (minIndex != index) {
-                E temp = items[index];
-                items[index] = items[minIndex];
-                items[minIndex] = temp;
+                swap(items, minIndex, index);
             }
         }
 

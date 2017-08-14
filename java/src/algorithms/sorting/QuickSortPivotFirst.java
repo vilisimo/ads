@@ -1,5 +1,7 @@
 package algorithms.sorting;
 
+import static helpers.Swapper.swap;
+
 /**
  * In-place implementation of Quicksort.
  *
@@ -34,15 +36,10 @@ public class QuickSortPivotFirst {
         for (int i = start + 1; i <= end; i++) {
             if (items[start].compareTo(items[i]) > 0) {
                 pivot++;
-                E temp = items[i];
-                items[i] = items[pivot];
-                items[pivot] = temp;
-
+                swap(items, pivot, i);
             }
         }
-        E temp = items[pivot];
-        items[pivot] = items[start];
-        items[start] = temp;
+        swap(items, start, pivot);
 
         quicksort(items, start, pivot - 1);
         quicksort(items, pivot + 1, end);

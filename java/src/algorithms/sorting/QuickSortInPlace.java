@@ -3,6 +3,8 @@ package algorithms.sorting;
 
 import java.util.concurrent.ThreadLocalRandom;
 
+import static helpers.Swapper.swap;
+
 /**
  * A quicksort implementation that takes (almost) no extra space.
  *
@@ -45,9 +47,7 @@ public class QuickSortInPlace {
             }
 
             if (head <= tail) {
-                E temp = items[head];
-                items[head++] = items[tail];
-                items[tail--] = temp;
+                swap(items, head++, tail--);
             }
         }
 
