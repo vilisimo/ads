@@ -12,7 +12,7 @@
 * Insertion Sort: [Java](../../blob/master/java/src/algorithms/sorting/InsertionSort.java), [Python](../../blob/master/python/algorithms/sorting/insertion.py)
 * Selection Sort: [Java](../../blob/master/java/src/algorithms/sorting/SelectionSort.java), [Python](../../blob/master/python/algorithms/sorting/selection.py)
 * Quicksort: [Java](../../blob/master/java/src/algorithms/sorting/QuickSort.java), [Python](../../blob/master/python/algorithms/sorting/quicksort.py)
-* Quicksort (in-place) [Java](../../blob/master/java/src/algorithms/sorting/QuickSortInPlace.java), [Python](../../blob/master/python/algorithms/sorting/quicksort.py#L33)
+* Quicksort (in-place): [Java](../../blob/master/java/src/algorithms/sorting/QuickSortInPlace.java), [Python](../../blob/master/python/algorithms/sorting/quicksort.py#L33)
 * Quicksort (in-place, 2): [Java](../../blob/master/java/src/algorithms/sorting/QuickSortPivotFirst.java), [Python](../../blob/master/python/algorithms/sorting/quicksort.py#L70)
 
 
