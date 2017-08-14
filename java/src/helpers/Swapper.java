@@ -11,6 +11,14 @@ public class Swapper {
             throw new IllegalArgumentException("Collection should not be null");
         }
 
+        if (first >= items.length || second >= items.length) {
+            throw new ArrayIndexOutOfBoundsException("Indices cannot be larger than the size of array");
+        }
+
+        if (first < 0 || second < 0) {
+            throw new ArrayIndexOutOfBoundsException("Indices cannot be lower than 0");
+        }
+
         if (first == second) {
             return;
         }

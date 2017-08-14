@@ -32,4 +32,24 @@ public class SwapperTest {
     public void doesNotAcceptNull() {
         swap(null, 0, 1);
     }
+
+    @Test(expected = ArrayIndexOutOfBoundsException.class)
+    public void largerIndicesThrowException() {
+        swap(new Integer[] {1, 2, 3}, 1, 3);
+    }
+
+    @Test(expected = ArrayIndexOutOfBoundsException.class)
+    public void largerIndicesThrowException2() {
+        swap(new Integer[] {1, 2, 3}, 3, 1);
+    }
+
+    @Test(expected = ArrayIndexOutOfBoundsException.class)
+    public void lowerThanZeroIndicesThrowException() {
+        swap(new Integer[] {1, 2, 3}, -1, 2);
+    }
+
+    @Test(expected = ArrayIndexOutOfBoundsException.class)
+    public void lowerThanZeroIndicesThrowException2() {
+        swap(new Integer[] {1, 2, 3}, 2, -1);
+    }
 }
