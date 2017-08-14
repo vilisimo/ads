@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static algorithms.sorting.QuickSortInPlace.quicksort;
 import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertThat;
 
 public class QuickSortInPlaceTest {
 
