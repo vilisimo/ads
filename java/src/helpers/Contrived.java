@@ -15,7 +15,7 @@ public final class Contrived implements Comparable<Contrived> {
         this.letter = letter;
     }
 
-    private final int sum() {
+    private int sum() {
         return this.number + this.letter;
     }
 
@@ -52,6 +52,6 @@ public final class Contrived implements Comparable<Contrived> {
 
     @Override
     public String toString() {
-        return "Contrived: " + this.number + ":" + this.letter;
+        return "Contrived[" + this.number + ":" + this.letter + "]";
     }
 }
