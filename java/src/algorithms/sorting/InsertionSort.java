@@ -1,10 +1,10 @@
 package algorithms.sorting;
 
+import static java.util.Objects.requireNonNull;
+
 public class InsertionSort {
     public static <E extends Comparable<E>> void sort(E[] items) {
-        if (items == null) {
-            throw new IllegalArgumentException("Collection cannot be null");
-        }
+        requireNonNull(items, "Collection should not be null");
 
         for (int index = 1; index < items.length; index++) {
             int currPos = index;

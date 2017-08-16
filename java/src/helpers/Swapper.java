@@ -1,5 +1,7 @@
 package helpers;
 
+import static java.util.Objects.requireNonNull;
+
 /**
  * Swaps two elements in an array.
  *
@@ -7,9 +9,7 @@ package helpers;
  */
 public class Swapper {
     public static <E> void swap(E[] items, int first, int second) {
-        if (items == null) {
-            throw new IllegalArgumentException("Collection should not be null");
-        }
+        requireNonNull(items, "Collection should not be null");
 
         if (first >= items.length || second >= items.length) {
             throw new ArrayIndexOutOfBoundsException("Indices cannot be larger than the size of array");

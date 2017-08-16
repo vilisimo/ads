@@ -28,7 +28,7 @@ public class SwapperTest {
         assertThat(numbers, is(expected));
     }
 
-    @Test(expected = IllegalArgumentException.class)
+    @Test(expected = NullPointerException.class)
     public void doesNotAcceptNull() {
         swap(null, 0, 1);
     }

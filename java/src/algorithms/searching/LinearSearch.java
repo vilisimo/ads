@@ -1,10 +1,11 @@
 package algorithms.searching;
 
+import static java.util.Objects.requireNonNull;
+
 public class LinearSearch {
     public static <E> int search(E[] collection, E target) {
-        if (collection == null || target == null) {
-            throw new IllegalArgumentException("Arguments cannot be null");
-        }
+        requireNonNull(collection, "Collection should not be null");
+        requireNonNull(target, "Target object should not be null");
 
         for (int i = 0; i < collection.length; i++) {
             if (collection[i].equals(target)) {

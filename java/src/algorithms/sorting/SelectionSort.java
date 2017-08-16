@@ -1,13 +1,13 @@
 package algorithms.sorting;
 
 import static helpers.Swapper.swap;
+import static java.util.Objects.requireNonNull;
 
 public class SelectionSort {
 
     public static <E extends Comparable<E>> void sort(E[] items) {
-        if (items == null) {
-            throw new IllegalArgumentException("Collection cannot be null");
-        }
+        requireNonNull(items, "Collection should not be null");
+
 
         for (int index = 0; index < items.length - 1; index++) {
             int minIndex = index;

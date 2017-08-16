@@ -69,7 +69,7 @@ public class BubbleSortTest {
         assertThat(items, is(expected));
     }
 
-    @Test(expected=IllegalArgumentException.class)
+    @Test(expected=NullPointerException.class)
     public void nullValuesThrowIllegalArgumentException() {
         sort(null);
     }

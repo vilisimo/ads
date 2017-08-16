@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
 import static helpers.ArrayMerger.mergeArrays;
+import static java.util.Objects.requireNonNull;
 
 public class QuickSort {
     /**
@@ -14,9 +15,8 @@ public class QuickSort {
      * general principle (and has rather bad space complexity).
      */
     public static String[] sort(String[] items) {
-        if (items == null) {
-            throw new IllegalArgumentException("Collection cannot not be null");
-        }
+        requireNonNull(items, "Collection should not be null");
+
 
         if (items.length < 2) {
             return items;

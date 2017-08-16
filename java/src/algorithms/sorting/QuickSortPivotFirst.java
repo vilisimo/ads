@@ -1,6 +1,7 @@
 package algorithms.sorting;
 
 import static helpers.Swapper.swap;
+import static java.util.Objects.requireNonNull;
 
 /**
  * In-place implementation of Quicksort.
@@ -15,9 +16,8 @@ import static helpers.Swapper.swap;
  */
 public class QuickSortPivotFirst {
     public static <E extends Comparable<E>> void quicksort(E[] items) {
-        if (items == null) {
-            throw new IllegalArgumentException("Collection should not be null");
-        }
+        requireNonNull(items, "Collection should not be null");
+
 
         if (items.length < 2) {
             return;

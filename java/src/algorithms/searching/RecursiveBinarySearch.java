@@ -1,5 +1,7 @@
 package algorithms.searching;
 
+import static java.util.Objects.requireNonNull;
+
 /**
  * Note: for repeating numbers, this algorithm will not always find a first
  * occurrence. In order to make it so, one would need to include additional
@@ -9,9 +11,8 @@ package algorithms.searching;
  * */
 public class RecursiveBinarySearch {
     public static <E extends Comparable<E>> int search(E[] collection, E target) {
-        if (collection == null || target == null) {
-            throw new IllegalArgumentException("Arguments cannot be null");
-        }
+        requireNonNull(collection, "Collection should not be null");
+        requireNonNull(target, "Target object should not be null");
 
         int bottom = 0;
         int top = collection.length - 1;

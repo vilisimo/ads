@@ -59,7 +59,7 @@ public class QuickSortPivotFirstTest {
         assertThat(items, is(expected));
     }
 
-    @Test(expected=IllegalArgumentException.class)
+    @Test(expected=NullPointerException.class)
     public void nullValuesThrowIllegalArgumentException() {
         quicksort(null);
     }

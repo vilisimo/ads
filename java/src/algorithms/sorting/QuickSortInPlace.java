@@ -4,6 +4,7 @@ package algorithms.sorting;
 import java.util.concurrent.ThreadLocalRandom;
 
 import static helpers.Swapper.swap;
+import static java.util.Objects.requireNonNull;
 
 /**
  * A quicksort implementation that takes (almost) no extra space.
@@ -15,9 +16,8 @@ import static helpers.Swapper.swap;
  */
 public class QuickSortInPlace {
     public static <E extends Comparable<E>> void quicksort(E[] items) {
-        if (items == null) {
-            throw new IllegalArgumentException("Collection cannot be null");
-        }
+        requireNonNull(items, "Collection should not be null");
+
 
         if (items.length < 2) {
             return;

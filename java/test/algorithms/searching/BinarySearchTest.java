@@ -9,14 +9,14 @@ import static org.junit.Assert.assertThat;
 
 public class BinarySearchTest {
 
-    @Test(expected = IllegalArgumentException.class)
+    @Test(expected = NullPointerException.class)
     public void nullCollectionThrowsException() {
-        search(null, null);
+        search(null, 1);
     }
 
-    @Test(expected = IllegalArgumentException.class)
+    @Test(expected = NullPointerException.class)
     public void nullTargetThrowsException() {
-        search(new Integer[]{1}, null);
+        search(new Integer[] {1}, null);
     }
 
     @Test

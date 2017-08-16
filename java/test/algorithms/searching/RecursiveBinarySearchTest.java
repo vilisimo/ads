@@ -9,12 +9,12 @@ import static org.junit.Assert.assertThat;
 
 public class RecursiveBinarySearchTest {
 
-    @Test(expected=IllegalArgumentException.class)
+    @Test(expected=NullPointerException.class)
     public void nullCollectionThrowsException() {
         search(null, null);
     }
 
-    @Test(expected=IllegalArgumentException.class)
+    @Test(expected=NullPointerException.class)
     public void nullTargetThrowsException() {
         search(new Integer[] {1}, null);
     }
