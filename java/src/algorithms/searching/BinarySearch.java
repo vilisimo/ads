@@ -10,6 +10,11 @@ import static java.util.Objects.requireNonNull;
  * backwards until it is found)
  * */
 public class BinarySearch {
+
+    private BinarySearch() {
+        throw new AssertionError("The class should not be instantiated");
+    }
+
     public static <E extends Comparable<E>> int search(E[] collection, E target) {
         requireNonNull(collection, "Collection should not be null");
         requireNonNull(target, "Target object should not be null");

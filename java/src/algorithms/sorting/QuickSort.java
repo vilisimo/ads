@@ -8,6 +8,11 @@ import static helpers.ArrayMerger.mergeArrays;
 import static java.util.Objects.requireNonNull;
 
 public class QuickSort {
+
+    private QuickSort() {
+        throw new AssertionError("The class should not be instantiated");
+    }
+
     /**
      * Note that due to generics this method only deals with strings, as
      * devising one that handles generic arrays is much more involved than

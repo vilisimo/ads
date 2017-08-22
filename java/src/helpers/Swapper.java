@@ -8,7 +8,11 @@ import static java.util.Objects.requireNonNull;
  * First element becomes the second and the second becomes the first.
  */
 public final class Swapper {
-    
+
+    private Swapper() {
+        throw new AssertionError("The class should not be instantiated");
+    }
+
     public static <E> void swap(E[] items, int first, int second) {
         requireNonNull(items, "Collection should not be null");
 

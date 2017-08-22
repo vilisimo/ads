@@ -5,6 +5,10 @@ import static java.util.Objects.requireNonNull;
 
 public class SelectionSort {
 
+    private SelectionSort() {
+        throw new AssertionError("The class should not be instantiated");
+    }
+
     public static <E extends Comparable<E>> void sort(E[] items) {
         requireNonNull(items, "Collection should not be null");
 

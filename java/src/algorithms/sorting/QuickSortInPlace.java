@@ -15,6 +15,11 @@ import static java.util.Objects.requireNonNull;
  * results.
  */
 public class QuickSortInPlace {
+
+    private QuickSortInPlace() {
+        throw new AssertionError("The class should not be instantiated");
+    }
+
     public static <E extends Comparable<E>> void quicksort(E[] items) {
         requireNonNull(items, "Collection should not be null");
 

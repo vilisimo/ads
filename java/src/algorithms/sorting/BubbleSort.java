@@ -4,6 +4,11 @@ import static helpers.Swapper.swap;
 import static java.util.Objects.requireNonNull;
 
 public class BubbleSort {
+
+    private BubbleSort() {
+        throw new AssertionError("The class should not be instantiated");
+    }
+
     public static <E extends Comparable<E>> void sort(E[] items) {
         requireNonNull(items, "Collection should not be null");
 

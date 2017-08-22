@@ -4,6 +4,10 @@ import java.lang.reflect.Array;
 
 public final class ArrayMerger {
 
+    private ArrayMerger() {
+        throw new AssertionError("The class should not be instantiated");
+    }
+
     @SuppressWarnings("unchecked")
     public static <T> T[] mergeArrays(T[]... arrays) {
         int size = 0;
