@@ -7,7 +7,8 @@ import static java.util.Objects.requireNonNull;
  *
  * First element becomes the second and the second becomes the first.
  */
-public class Swapper {
+public final class Swapper {
+    
     public static <E> void swap(E[] items, int first, int second) {
         requireNonNull(items, "Collection should not be null");
 
