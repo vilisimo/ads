@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
 import static helpers.ArrayMerger.mergeArrays;
+import static helpers.Comparer.greater;
 import static java.util.Objects.requireNonNull;
 
 public class QuickSort {
@@ -38,7 +39,7 @@ public class QuickSort {
             }
 
             String currentItem = items[index];
-            if (currentItem.compareTo(items[pivot]) > 0) {
+            if (greater(currentItem, items[pivot])) {
                 higher.add(items[index]);
             } else {
                 lower.add(currentItem);

@@ -1,5 +1,6 @@
 package algorithms.sorting;
 
+import static helpers.Comparer.greater;
 import static helpers.Swapper.swap;
 import static java.util.Objects.requireNonNull;
 
@@ -16,7 +17,7 @@ public class SelectionSort {
         for (int index = 0; index < items.length - 1; index++) {
             int minIndex = index;
             for (int j = index + 1; j < items.length; j++) {
-                if (items[minIndex].compareTo(items[j]) > 0) {
+                if (greater(items[minIndex], items[j])) {
                     minIndex = j;
                 }
             }

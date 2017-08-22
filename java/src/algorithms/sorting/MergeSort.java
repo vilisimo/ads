@@ -1,5 +1,6 @@
 package algorithms.sorting;
 
+import static helpers.Comparer.greater;
 import static java.util.Objects.requireNonNull;
 
 public class MergeSort {
@@ -61,7 +62,7 @@ public class MergeSort {
                 // we copied all elements from second half, so finish merging
                 toSort[k] = temp[firstIdx++];
             }
-            else if (temp[firstIdx].compareTo(temp[secondIdx]) > 0) {
+            else if (greater(temp[firstIdx], temp[secondIdx])) {
                 toSort[k] = temp[secondIdx++];
             } else {
                 toSort[k] = temp[firstIdx++];

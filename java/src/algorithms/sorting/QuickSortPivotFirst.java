@@ -1,5 +1,6 @@
 package algorithms.sorting;
 
+import static helpers.Comparer.greater;
 import static helpers.Swapper.swap;
 import static java.util.Objects.requireNonNull;
 
@@ -38,7 +39,7 @@ public class QuickSortPivotFirst {
         int pivot = start;
 
         for (int i = start + 1; i <= end; i++) {
-            if (items[start].compareTo(items[i]) > 0) {
+            if (greater(items[start], items[i])) {
                 pivot++;
                 swap(items, pivot, i);
             }

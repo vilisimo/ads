@@ -1,5 +1,7 @@
 package algorithms.searching;
 
+import static helpers.Comparer.equal;
+import static helpers.Comparer.greater;
 import static java.util.Objects.requireNonNull;
 
 /**
@@ -33,9 +35,9 @@ public class RecursiveBinarySearch {
 
         int middle = (bottom + top) / 2;
 
-        if (collection[middle].compareTo(target) == 0) {
+        if (equal(collection[middle], target)) {
             return middle;
-        } else if (collection[middle].compareTo(target) > 0) {
+        } else if (greater(collection[middle], target)) {
             return recursiveSearch(collection, target, bottom, middle - 1);
         } else {
             return recursiveSearch(collection, target, middle + 1, top);

@@ -1,5 +1,6 @@
 package algorithms.sorting;
 
+import static helpers.Comparer.greater;
 import static java.util.Objects.requireNonNull;
 
 public class InsertionSort {
@@ -15,7 +16,7 @@ public class InsertionSort {
             int currPos = index;
             E value = items[index];
 
-            while (currPos > 0 && value.compareTo(items[currPos-1]) < 0) {
+            while (currPos > 0 && greater(items[currPos-1], value)) {
                 items[currPos] = items[currPos-1];
                 currPos--;
             }

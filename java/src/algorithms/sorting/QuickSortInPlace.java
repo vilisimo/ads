@@ -3,6 +3,8 @@ package algorithms.sorting;
 
 import java.util.concurrent.ThreadLocalRandom;
 
+import static helpers.Comparer.greater;
+import static helpers.Comparer.less;
 import static helpers.Swapper.swap;
 import static java.util.Objects.requireNonNull;
 
@@ -43,11 +45,11 @@ public class QuickSortInPlace {
         E pivot = items[ThreadLocalRandom.current().nextInt(start, items.length)];
 
         while (head <= tail) {
-            while (items[head].compareTo(pivot) < 0) {
+            while (less(items[head], pivot)) {
                 head++;
             }
 
-            while (items[tail].compareTo(pivot) > 0) {
+            while (greater(items[tail], pivot)) {
                 tail--;
             }
 
