@@ -17,8 +17,7 @@ import static java.util.Objects.requireNonNull;
 public class QuickSortPivotFirst {
     public static <E extends Comparable<E>> void quicksort(E[] items) {
         requireNonNull(items, "Collection should not be null");
-
-
+        
         if (items.length < 2) {
             return;
         }

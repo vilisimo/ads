@@ -78,5 +78,4 @@ public class LinearSearchTest {
 
         assertThat(actual, is(2));
     }
-
 }

@@ -41,5 +41,4 @@ public class ArrayMergerTest {
 
         assertThat(merged.length, is(0));
     }
-
 }

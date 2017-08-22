@@ -21,6 +21,5 @@ public class SelectionSort {
                 swap(items, minIndex, index);
             }
         }
-
     }
 }
