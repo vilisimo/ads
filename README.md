@@ -10,6 +10,7 @@
 ### Sorting Algorithms
 * Bubble sort: [Java](../../blob/master/java/src/algorithms/sorting/BubbleSort.java), [Python](../../blob/master/python/algorithms/sorting/bubble.py)
 * Insertion Sort: [Java](../../blob/master/java/src/algorithms/sorting/InsertionSort.java), [Python](../../blob/master/python/algorithms/sorting/insertion.py)
+* Merge Sort: [Java](../../blob/master/java/src/algorithms/sorting/MergeSort.java), [Python](../../blob/master/python/algorithms/sorting/mergesort.py)
 * Selection Sort: [Java](../../blob/master/java/src/algorithms/sorting/SelectionSort.java), [Python](../../blob/master/python/algorithms/sorting/selection.py)
 * Quicksort: [Java](../../blob/master/java/src/algorithms/sorting/QuickSort.java), [Python](../../blob/master/python/algorithms/sorting/quicksort.py)
 * Quicksort (in-place): [Java](../../blob/master/java/src/algorithms/sorting/QuickSortInPlace.java), [Python](../../blob/master/python/algorithms/sorting/quicksort.py#L33)
