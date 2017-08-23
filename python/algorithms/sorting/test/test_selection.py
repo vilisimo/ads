@@ -5,6 +5,7 @@ from helpers.contrived import Contrived
 
 
 class TestSelectionSort(unittest.TestCase):
+
     def test_sorting_empty_list_returns_empty_list(self):
         collection = []
 

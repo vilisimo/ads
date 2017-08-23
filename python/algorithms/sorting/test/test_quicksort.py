@@ -5,6 +5,7 @@ from helpers.contrived import Contrived
 
 
 class TestQuicksort(unittest.TestCase):
+
     def test_sorting_empty_list_returns_empty_list(self):
         collection = []
 
@@ -57,6 +58,7 @@ class TestQuicksort(unittest.TestCase):
 
 
 class TestQuicksortInPlace(unittest.TestCase):
+
     def test_sorting_empty_list_returns_empty_list(self):
         collection = []
 
@@ -117,6 +119,7 @@ class TestQuicksortInPlace(unittest.TestCase):
 
 
 class TestFirstElementPivotQuickSort(unittest.TestCase):
+    
     def test_sorting_empty_list_returns_empty_list(self):
         collection = []
 
