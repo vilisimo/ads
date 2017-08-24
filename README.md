@@ -16,6 +16,10 @@
 * Quicksort (in-place): [Java](../../blob/master/java/src/algorithms/sorting/QuickSortInPlace.java), [Python](../../blob/master/python/algorithms/sorting/quicksort.py#L33)
 * Quicksort (in-place, 2): [Java](../../blob/master/java/src/algorithms/sorting/QuickSortPivotFirst.java), [Python](../../blob/master/python/algorithms/sorting/quicksort.py#L70)
 
+## Data structures
+
+### Linear Data Structures
+
 
 
 ## Launching Tests
