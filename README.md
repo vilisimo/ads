@@ -19,6 +19,7 @@
 ## Data structures
 
 ### Linear Data Structures
+* Stack: [Python](../../blob/master/python/structures/stack.py)
 
 
 
