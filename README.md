@@ -19,7 +19,7 @@
 ## Data structures
 
 ### Linear Data Structures
-* Stack: [Python](../../blob/master/python/structures/stack.py)
+* Stack: [Java](../../blob/master/java/src/structures/stack), [Python](../../blob/master/python/structures/stack.py)
 
 
 
