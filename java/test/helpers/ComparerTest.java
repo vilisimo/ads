@@ -2,10 +2,7 @@ package helpers;
 
 import org.junit.Test;
 
-import static helpers.Comparer.equal;
-import static helpers.Comparer.greater;
-import static helpers.Comparer.less;
-import static org.junit.Assert.assertEquals;
+import static helpers.Comparer.*;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
