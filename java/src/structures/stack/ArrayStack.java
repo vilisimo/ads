@@ -2,6 +2,8 @@ package structures.stack;
 
 import java.util.EmptyStackException;
 
+import static java.util.Objects.requireNonNull;
+
 public class ArrayStack<E> implements Stack<E> {
 
     private int capacity = 2;
@@ -25,6 +27,8 @@ public class ArrayStack<E> implements Stack<E> {
 
     @Override
     public E push(E element) {
+        requireNonNull(element, "Null elements cannot be pushed onto a stack");
+
         if (isFull()) {
             expand();
         }

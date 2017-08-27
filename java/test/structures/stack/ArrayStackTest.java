@@ -29,6 +29,11 @@ public class ArrayStackTest {
         assertThat(pushed, is(1));
     }
 
+    @Test(expected = NullPointerException.class)
+    public void cannotPushNullValues() {
+        stack.push(null);
+    }
+
     @Test
     public void canPopItemsFromTheStack() {
         Integer pushed = stack.push(1);
