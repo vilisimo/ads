@@ -26,10 +26,7 @@ public class ArrayStack<E> implements Stack<E> {
     @Override
     public E push(E element) {
         requireNonNull(element, "Null elements cannot be pushed onto a stack");
-
-        if (isFull()) {
-            expand();
-        }
+        expandIfNecessary();
 
         elements[size++] = element;
 
@@ -57,7 +54,7 @@ public class ArrayStack<E> implements Stack<E> {
 
     @Override
     public int size() {
-        return this.size;
+        return size;
     }
 
     private void assertNotEmpty() {
@@ -66,15 +63,17 @@ public class ArrayStack<E> implements Stack<E> {
         }
     }
 
-    private boolean isFull() {
-        return size >= elements.length;
+    @SuppressWarnings("unchecked")
+    private void expandIfNecessary() {
+        if (isFull()) {
+            int capacity = elements.length * 2;
+            E[] temporary = (E[]) new Object[capacity];
+            System.arraycopy(elements, 0, temporary, 0, elements.length);
+            elements = temporary;
+        }
     }
 
-    @SuppressWarnings("unchecked")
-    private void expand() {
-        int capacity = elements.length * 2;
-        E[] temporary = (E[]) new Object[capacity];
-        System.arraycopy(elements, 0, temporary, 0, elements.length);
-        elements = temporary;
+    private boolean isFull() {
+        return size >= elements.length;
     }
 }
