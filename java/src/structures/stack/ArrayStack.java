@@ -6,13 +6,12 @@ import static java.util.Objects.requireNonNull;
 
 public class ArrayStack<E> implements Stack<E> {
 
-    private int capacity = 2;
     private E[] elements;
     private int size = 0;
 
     @SuppressWarnings("unchecked")
     public ArrayStack() {
-        this.elements = (E[]) new Object[this.capacity];
+        this.elements = (E[]) new Object[2];
     }
 
     @SuppressWarnings("unchecked")
@@ -21,8 +20,7 @@ public class ArrayStack<E> implements Stack<E> {
             throw new IllegalArgumentException("Initial capacity must be greater than 0");
         }
 
-        this.capacity = initialCapacity;
-        this.elements = (E[]) new Object[this.capacity];
+        this.elements = (E[]) new Object[initialCapacity];
     }
 
     @Override
@@ -74,9 +72,9 @@ public class ArrayStack<E> implements Stack<E> {
 
     @SuppressWarnings("unchecked")
     private void expand() {
-        capacity = capacity * 2;
+        int capacity = elements.length * 2;
         E[] temporary = (E[]) new Object[capacity];
-        System.arraycopy(this.elements, 0, temporary, 0, elements.length);
-        this.elements = temporary;
+        System.arraycopy(elements, 0, temporary, 0, elements.length);
+        elements = temporary;
     }
 }
