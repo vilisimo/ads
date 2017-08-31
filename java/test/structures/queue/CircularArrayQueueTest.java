@@ -45,7 +45,7 @@ public class CircularArrayQueueTest {
     }
 
     @Test
-    public void dequeueReturnsLastElement() {
+    public void dequeueReturnsFirstElement() {
         queue.enqueue("Placeholder");
         queue.enqueue("Another");
 
