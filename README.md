@@ -20,6 +20,7 @@
 
 ### Linear Data Structures
 * Stack: [Java](../../blob/master/java/src/structures/stack), [Python](../../blob/master/python/structures/stack.py)
+* Queue: [Java](../../blob/master/java/src/structures/queue), [Python](../../blob/master/python/structures/queue.py)
 
 
 
