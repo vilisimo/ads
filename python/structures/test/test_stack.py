@@ -95,3 +95,10 @@ class StackTest(unittest.TestCase):
 
         for item in self.stack:
             self.assertEqual(item, next(reversed_items))
+
+    def test_throws_stop_iteration(self):
+        self.stack.push(1)
+        next(self.stack)
+
+        with self.assertRaises(StopIteration):
+            next(self.stack)
