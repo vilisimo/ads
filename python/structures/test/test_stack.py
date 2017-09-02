@@ -14,6 +14,10 @@ class StackTest(unittest.TestCase):
 
         self.assertEqual(self.stack._items[0], 1)
 
+    def test_push_does_not_accept_none(self):
+        with self.assertRaises(TypeError):
+            self.stack.push(None)
+
     def test_pop_removes_item(self):
         self.stack.push(1)
         item = self.stack.pop()

@@ -4,6 +4,9 @@ class Stack:
         self._index = 0
 
     def push(self, item):
+        if item is None:
+            raise TypeError("Element cannot be of type None")
+
         self._items.append(item)
         self._index += 1
 
