@@ -24,7 +24,7 @@ class Stack:
         return self._items[self._index - 1]
 
     def is_empty(self):
-        return self._index <= 0
+        return len(self._items) <= 0
 
     def __len__(self):
         return len(self._items)
