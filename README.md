@@ -64,5 +64,5 @@ Running tests through IntelliJ is much less hassle.
 With exception of JUnit for Java code, there are no other dependencies. 
 * For Python examples, 3.6.0+ version should be used, although in same cases 
   lower versions will be sufficient. 
-* For Java code, Java 8 was utilized. Code is written in plain Java with exception for
+* For Java code, Java 8 was used. Code was written in plain Java with an exception of
   [JUnit 4.12](http://junit.org/junit4/), which is used for tests.
