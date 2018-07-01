@@ -3,24 +3,24 @@
 ## Algorithms
 
 ### Searching Algorithms
-* Binary Search: [Java](../../blob/master/java/src/algorithms/searching/BinarySearch.java), [Python](../../blob/master/python/algorithms/searching/binary.py)
-* Binary Search (recursive): [Java](../../blob/master/java/src/algorithms/searching/RecursiveBinarySearch.java), [Python](../../blob/master/python/algorithms/searching/recursiveBinary.py)
-* Linear Search: [Java](../../blob/master/java/src/algorithms/searching/LinearSearch.java), [Python](../../blob/master/python/algorithms/searching/linear.py)
+* Binary Search: [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/algorithms/searching/BinarySearch.java), [Python](../../blob/master/python/algorithms/searching/binary.py)
+* Binary Search (recursive): [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/algorithms/searching/RecursiveBinarySearch.java), [Python](../../blob/master/python/algorithms/searching/recursiveBinary.py)
+* Linear Search: [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/algorithms/searching/LinearSearch.java), [Python](../../blob/master/python/algorithms/searching/linear.py)
 
 ### Sorting Algorithms
-* Bubble sort: [Java](../../blob/master/java/src/algorithms/sorting/BubbleSort.java), [Python](../../blob/master/python/algorithms/sorting/bubble.py)
-* Insertion Sort: [Java](../../blob/master/java/src/algorithms/sorting/InsertionSort.java), [Python](../../blob/master/python/algorithms/sorting/insertion.py)
-* Merge Sort: [Java](../../blob/master/java/src/algorithms/sorting/MergeSort.java), [Python](../../blob/master/python/algorithms/sorting/mergesort.py)
-* Selection Sort: [Java](../../blob/master/java/src/algorithms/sorting/SelectionSort.java), [Python](../../blob/master/python/algorithms/sorting/selection.py)
-* Quicksort: [Java](../../blob/master/java/src/algorithms/sorting/QuickSort.java), [Python](../../blob/master/python/algorithms/sorting/quicksort.py)
-* Quicksort (in-place): [Java](../../blob/master/java/src/algorithms/sorting/QuickSortInPlace.java), [Python](../../blob/master/python/algorithms/sorting/quicksort.py#L33)
-* Quicksort (in-place, 2): [Java](../../blob/master/java/src/algorithms/sorting/QuickSortPivotFirst.java), [Python](../../blob/master/python/algorithms/sorting/quicksort.py#L70)
+* Bubble sort: [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/algorithms/sorting/BubbleSort.java), [Python](../../blob/master/python/algorithms/sorting/bubble.py)
+* Insertion Sort: [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/algorithms/sorting/InsertionSort.java), [Python](../../blob/master/python/algorithms/sorting/insertion.py)
+* Merge Sort: [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/algorithms/sorting/MergeSort.java), [Python](../../blob/master/python/algorithms/sorting/mergesort.py)
+* Selection Sort: [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/algorithms/sorting/SelectionSort.java), [Python](../../blob/master/python/algorithms/sorting/selection.py)
+* Quicksort: [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/algorithms/sorting/QuickSort.java), [Python](../../blob/master/python/algorithms/sorting/quicksort.py)
+* Quicksort (in-place): [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/algorithms/sorting/QuickSortInPlace.java), [Python](../../blob/master/python/algorithms/sorting/quicksort.py#L33)
+* Quicksort (in-place, 2): [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/algorithms/sorting/QuickSortPivotFirst.java), [Python](../../blob/master/python/algorithms/sorting/quicksort.py#L70)
 
 ## Data structures
 
 ### Linear Data Structures
-* Stack: [Java](../../blob/master/java/src/structures/stack), [Python](../../blob/master/python/structures/stack.py)
-* Queue: [Java](../../blob/master/java/src/structures/queue), [Python](../../blob/master/python/structures/queue.py)
+* Stack: [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/structures/stack), [Python](../../blob/master/python/structures/stack.py)
+* Queue: [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/structures/queue), [Python](../../blob/master/python/structures/queue.py)
 
 
 
