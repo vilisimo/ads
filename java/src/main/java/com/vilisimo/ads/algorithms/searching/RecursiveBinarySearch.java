@@ -25,7 +25,6 @@ public class RecursiveBinarySearch {
         int top = collection.length - 1;
 
         return recursiveSearch(collection, target, bottom, top);
-
     }
 
     private static <E extends Comparable<E>> int recursiveSearch(E[] collection, E target, int bottom, int top) {

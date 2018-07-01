@@ -23,7 +23,6 @@ public class QuickSort {
     public static String[] sort(String[] items) {
         requireNonNull(items, "Collection should not be null");
 
-
         if (items.length < 2) {
             return items;
         }
