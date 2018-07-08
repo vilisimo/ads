@@ -15,5 +15,5 @@ java.iml
 TODO.md
 
 # Dependency Management 
-./gradle
+.gradle/
 build/
