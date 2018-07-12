@@ -29,18 +29,12 @@
 
 ## Launching Tests
 ### Python
-Easiest way to launch tests is to do that via PyCharm. Nevertheless, it is 
-possible to run tests through terminal, too.
-
-First of all, set the correct `PYTHONPATH`. For example, on Linux it might
-look something like this: `/home/username/dev/ads/python`. To export the
-path, simply issue this command in your terminal:
+Easiest way to launch tests is to do that via PyCharm. Alternatively, you can
+issue this command in `python` directory:
 
 ~~~
-PYTHONPATH=$PYTHONPATH:/home/username/dev/ads/python
+python3 -m unittest
 ~~~
-
-Don't forget to adjust the path to your needs. 
 
 ### Java
 Project uses Gradle as a build tool. Hence, running tests is as easy as:
