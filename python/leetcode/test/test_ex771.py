@@ -1,11 +1,11 @@
-from nose.tools import raises, assert_raises
-
 import unittest
 
-from ex771 import Solution
+from leetcode.ex771 import Solution
 
-class TestClass:
-    def setup(self):
+
+class TestClass(unittest.TestCase):
+
+    def setUp(self):
         self.solution = Solution()
 
     def test_empty_jewels(self):
@@ -19,6 +19,7 @@ class TestClass:
     def test_mixed_case_jewels(self):
         result = self.solution.numJewelsInStones("aA", "aAAbbbb")
         assert result == 3
+
 
 if __name__ == "__main__":
     unittest.main()
