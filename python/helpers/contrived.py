@@ -31,8 +31,8 @@ class Contrived:
 
     @staticmethod
     def _validate_letter(letter):
-        if letter is None:
-            raise TypeError("Letter cannot be of type None")
+        if not isinstance(letter, str):
+            raise TypeError("Argument must be a string")
 
         if len(letter) > 1 or letter not in string.ascii_letters:
             raise TypeError("Letter should be a single ascii character")

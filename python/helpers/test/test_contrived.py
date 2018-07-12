@@ -27,7 +27,7 @@ class TestContrivedInitialization(unittest.TestCase):
         with self.assertRaises(TypeError):
             Contrived('a', 1.1)
 
-    def test_letter_as_none_raises_exception(self):
+    def test_invalid_type_letter_raises_exception(self):
         with self.assertRaises(TypeError):
             Contrived(None, 1)
 
