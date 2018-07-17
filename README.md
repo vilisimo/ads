@@ -18,6 +18,7 @@
 
 ### Transforming Algorithms
 * Integer to Roman Numeral (1-3999): [Python](../../blob/master/python/algorithms/transforming/roman.py#L19)
+* Roman Numeral to Integer (1-3999): [Python](../../blob/master/python/algorithms/transforming/roman.py#L35)
 
 ## LeetCode Exercises
 * Exercise 771 - Jewels and Stones: [Python](../../blob/master/python/leetcode/ex771.py)
