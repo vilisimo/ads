@@ -33,8 +33,8 @@
 
 ## Launching Tests
 ### Python
-Easiest way to launch tests is to do that via PyCharm. Alternatively, you can
-issue this command in `python` directory:
+Easiest way to launch tests is to do that via PyCharm. Alternatively, they
+can be launched by issuing this command in `ads/python/` directory:
 
 ~~~
 python3 -m unittest
@@ -47,14 +47,13 @@ Project uses Gradle as a build tool. Hence, running tests is as easy as:
 ./gradlew test
 ~~~
 
-On the other hand, it is also very easy to run tests in IntelliJ. Simply
-import the project as a Gradle project, right click on `test` directory
-and select `Run 'All Tests'`.
+Alternatively, tests can be run in IntelliJ. To do so, import the project as a
+Gradle project, right click on `test` directory and select `Run 'All Tests'`.
 
 ## Dependencies
-With exception of JUnit for Java code, there are no other dependencies. 
+With exception of JUnit for Java code, there are no other dependencies.
 * For Python examples, 3.6.0+ version should be used, although in same cases
-lower versions will be sufficient. 
+lower versions will be sufficient.
 * For Java code, Java 9 was used. Code was written in plain Java with
 an exception of [JUnit 4.12](http://junit.org/junit4/), which was used for
 tests.
