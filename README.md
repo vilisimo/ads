@@ -20,15 +20,14 @@
 * Integer to Roman Numeral (1-3999): [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/algorithms/transforming/RomanNumerals.java#L17), [Python](../../blob/master/python/algorithms/transforming/roman.py#L19)
 * Roman Numeral to Integer (1-3999): [Python](../../blob/master/python/algorithms/transforming/roman.py#L35)
 
-## LeetCode Exercises
-* Exercise 771 - Jewels and Stones: [Python](../../blob/master/python/leetcode/ex771.py)
-
 ## Data structures
 
 ### Linear Data Structures
 * Stack: [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/structures/stack), [Python](../../blob/master/python/structures/stack.py)
 * Queue: [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/structures/queue), [Python](../../blob/master/python/structures/queue.py)
 
+## LeetCode Exercises
+* Exercise 771 - Jewels and Stones: [Python](../../blob/master/python/leetcode/ex771.py)
 
 
 ## Launching Tests
