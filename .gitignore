@@ -11,6 +11,9 @@ lib/
 .idea/
 java.iml
 
+# VS Code
+.vscode
+
 # Todo list
 TODO.md
 
