@@ -17,7 +17,7 @@
 * Quicksort (in-place, 2): [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/algorithms/sorting/QuickSortPivotFirst.java), [Python](../../blob/master/python/algorithms/sorting/quicksort.py#L70)
 
 ### Transforming Algorithms
-* Integer to Roman Numeral (1-3999): [Python](../../blob/master/python/algorithms/transforming/roman.py#L19)
+* Integer to Roman Numeral (1-3999): [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/algorithms/transforming/RomanNumerals.java#L17), [Python](../../blob/master/python/algorithms/transforming/roman.py#L19)
 * Roman Numeral to Integer (1-3999): [Python](../../blob/master/python/algorithms/transforming/roman.py#L35)
 
 ## LeetCode Exercises
