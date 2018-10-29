@@ -5,6 +5,7 @@ import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
 import static com.vilisimo.ads.helpers.Strings.letterAt;
+import static com.vilisimo.ads.helpers.Strings.nonBlank;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
@@ -36,5 +37,28 @@ public class StringsTest {
         expectedException.expectMessage("Word cannot be null");
 
         letterAt(null, 1);
+    }
+
+    @Test
+    public void doesNotAllowNullString() {
+        expectedException.expect(NullPointerException.class);
+        expectedException.expectMessage("String cannot be null");
+
+        nonBlank(null);
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void doesNotAllowEmptyString() {
+        nonBlank("");
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void doesNotAllowEmptyStringWithWhiteSpaces() {
+        nonBlank("    ");
+    }
+
+    @Test
+    public void letsThroughValidString() {
+        nonBlank("valid");
     }
 }

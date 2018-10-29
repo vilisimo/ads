@@ -17,4 +17,16 @@ public final class Strings {
 
         return String.valueOf(word.charAt(position));
     }
+
+    public static void nonBlank(String string) {
+        nonBlank(string, "String cannot be null");
+    }
+
+    public static void nonBlank(String string, String message) {
+        requireNonNull(string, "String cannot be null");
+
+        if (string.trim().isEmpty()) {
+            throw new IllegalArgumentException(message);
+        }
+    }
 }
