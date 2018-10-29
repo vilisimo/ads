@@ -17,9 +17,8 @@
 * Quicksort (in-place, 2): [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/algorithms/sorting/QuickSortPivotFirst.java), [Python](../../blob/master/python/algorithms/sorting/quicksort.py#L70)
 
 ### Transforming Algorithms
-* Integer to Roman Numeral (1-3999): [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/algorithms/transforming/RomanNumerals.java#L17), [Python](../../blob/master/python/algorithms/transforming/roman.py#L19)
-* Roman Numeral to Integer (1-3999): [Python](../../blob/master/python/algorithms/transforming/roman.py#L35)
-
+* Integer to Roman Numeral (1-3999): [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/algorithms/transforming/RomanNumerals.java#L20), [Python](../../blob/master/python/algorithms/transforming/roman.py#L19)
+* Roman Numeral to Integer (1-3999): [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/algorithms/transforming/RomanNumerals.java#L40), [Python](../../blob/master/python/algorithms/transforming/roman.py#L35)
 ## Data structures
 
 ### Linear Data Structures
@@ -43,7 +42,7 @@ python3 -m unittest
 Project uses Gradle as a build tool. Hence, running tests is as easy as:
 
 ~~~
-./gradlew test
+./gradlew clean test
 ~~~
 
 Alternatively, tests can be run in IntelliJ. To do so, import the project as a
