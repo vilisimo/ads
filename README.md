@@ -5,8 +5,6 @@
 ### Computation Algorithms
 * Euclid's Algorithm for GCD: [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/algorithms/computations/EuclidsAlgorithm.java)
 
-https://github.com/vilisimo/ads/blob/master/java/src/main/java/com/vilisimo/ads/algorithms/computations/EuclidsAlgorithm.java
-
 ### Searching Algorithms
 * Binary Search: [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/algorithms/searching/BinarySearch.java), [Python](../../blob/master/python/algorithms/searching/binary.py)
 * Binary Search (recursive): [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/algorithms/searching/RecursiveBinarySearch.java), [Python](../../blob/master/python/algorithms/searching/recursiveBinary.py)
