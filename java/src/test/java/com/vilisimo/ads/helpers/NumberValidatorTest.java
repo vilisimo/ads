@@ -2,7 +2,8 @@ package com.vilisimo.ads.helpers;
 
 import org.junit.Test;
 
-import static com.vilisimo.ads.helpers.NumberValidator.*;
+import static com.vilisimo.ads.helpers.NumberValidator.greaterThan;
+import static com.vilisimo.ads.helpers.NumberValidator.lessThan;
 
 public class NumberValidatorTest {
 

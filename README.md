@@ -22,6 +22,7 @@
 ### Transforming Algorithms
 * Integer to Roman Numeral (1-3999): [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/algorithms/transforming/RomanNumerals.java#L20), [Python](../../blob/master/python/algorithms/transforming/roman.py#L19)
 * Roman Numeral to Integer (1-3999): [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/algorithms/transforming/RomanNumerals.java#L40), [Python](../../blob/master/python/algorithms/transforming/roman.py#L35)
+
 ## Data structures
 
 ### Linear Data Structures
@@ -31,8 +32,13 @@
 ## LeetCode Exercises
 * Exercise 771 - Jewels and Stones: [Python](../../blob/master/python/leetcode/ex771.py)
 
+## Books
+* *Algorithms* (2011) by Robert Sedgewick & Kevin Wayne: [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/books/algorithms)
+
+Note that only those exercises that seem to be interesting and require a bit of coding are included.
 
 ## Launching Tests
+
 ### Python
 Easiest way to launch tests is to do that via PyCharm. Alternatively, they
 can be launched by issuing this command in `ads/python/` directory:

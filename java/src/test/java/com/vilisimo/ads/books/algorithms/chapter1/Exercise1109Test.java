@@ -1,25 +1,25 @@
-package com.vilisimo.ads.algorithms.transforming;
+package com.vilisimo.ads.books.algorithms.chapter1;
 
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertThat;
 
-public class BinaryTest {
+public class Exercise1109Test {
 
     @Test(expected = IllegalArgumentException.class)
     public void doesNotAcceptNegativeNumbers() {
-        Binary.toBinaryString(-1);
+        Exercise1109.toBinaryString(-1);
     }
 
     @Test
     public void transformsToBinaryRepresentation() {
         //when
-        var zero = Binary.toBinaryString(0);
-        var one = Binary.toBinaryString(1);
-        var two = Binary.toBinaryString(2);
-        var three = Binary.toBinaryString(3);
-        var ten = Binary.toBinaryString(10);
+        var zero = Exercise1109.toBinaryString(0);
+        var one = Exercise1109.toBinaryString(1);
+        var two = Exercise1109.toBinaryString(2);
+        var three = Exercise1109.toBinaryString(3);
+        var ten = Exercise1109.toBinaryString(10);
 
 
         //then

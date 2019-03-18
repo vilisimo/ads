@@ -1,11 +1,11 @@
-package com.vilisimo.ads.algorithms.transforming;
+package com.vilisimo.ads.books.algorithms.chapter1;
 
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class ArraysTest {
+public class Exercise1110Test {
 
     @Test
     public void transformsTwoRowsThreeColumnsToTable() {
@@ -19,7 +19,7 @@ public class ArraysTest {
         input[1][2] = true;
 
         //when
-        var result = Arrays.toTable(input);
+        var result = Exercise1110.toTable(input);
 
         assertThat(result, is(" 012\n0* *\n1***"));
     }
@@ -30,7 +30,7 @@ public class ArraysTest {
         var input = new boolean[3][2];
 
         //when
-        var result = Arrays.toTable(input);
+        var result = Exercise1110.toTable(input);
 
         assertThat(result, is(" 01\n0  \n1  \n2  "));
     }
@@ -42,8 +42,8 @@ public class ArraysTest {
         var zeroHeight = new boolean[0][2];
 
         //when
-        var wTable = Arrays.toTable(zeroWidth);
-        var hTable = Arrays.toTable(zeroHeight);
+        var wTable = Exercise1110.toTable(zeroWidth);
+        var hTable = Exercise1110.toTable(zeroHeight);
 
         //then
         assertThat(wTable, is(""));

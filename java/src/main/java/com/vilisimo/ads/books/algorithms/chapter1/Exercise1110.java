@@ -1,14 +1,14 @@
-package com.vilisimo.ads.algorithms.transforming;
+package com.vilisimo.ads.books.algorithms.chapter1;
 
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-public class Arrays {
+public class Exercise1110 {
 
     private static final String TRUE = "*";
     private static final String FALSE = " ";
 
-    private Arrays() {
+    private Exercise1110() {
         throw new AssertionError("The class should not be instantiated");
     }
 

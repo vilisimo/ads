@@ -1,8 +1,8 @@
-package com.vilisimo.ads.algorithms.transforming;
+package com.vilisimo.ads.books.algorithms.chapter1;
 
 import com.vilisimo.ads.helpers.NumberValidator;
 
-public class Binary {
+public class Exercise1109 {
 
     /**
      * Similar as {@link Integer#toBinaryString}, but not as robust.

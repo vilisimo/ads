@@ -2,7 +2,9 @@ package com.vilisimo.ads.helpers;
 
 import org.junit.Test;
 
-import static com.vilisimo.ads.helpers.Comparer.*;
+import static com.vilisimo.ads.helpers.Comparer.equal;
+import static com.vilisimo.ads.helpers.Comparer.greater;
+import static com.vilisimo.ads.helpers.Comparer.less;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
