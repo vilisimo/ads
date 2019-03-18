@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class ArrayVisualiserTest {
+public class ArraysTest {
 
     @Test
     public void transformsTwoRowsThreeColumnsToTable() {
@@ -19,7 +19,7 @@ public class ArrayVisualiserTest {
         input[1][2] = true;
 
         //when
-        var result = ArrayVisualiser.toTable(input);
+        var result = Arrays.toTable(input);
 
         assertThat(result, is(" 012\n0* *\n1***"));
     }
@@ -30,7 +30,7 @@ public class ArrayVisualiserTest {
         var input = new boolean[3][2];
 
         //when
-        var result = ArrayVisualiser.toTable(input);
+        var result = Arrays.toTable(input);
 
         assertThat(result, is(" 01\n0  \n1  \n2  "));
     }
@@ -42,8 +42,8 @@ public class ArrayVisualiserTest {
         var zeroHeight = new boolean[0][2];
 
         //when
-        var wTable = ArrayVisualiser.toTable(zeroWidth);
-        var hTable = ArrayVisualiser.toTable(zeroHeight);
+        var wTable = Arrays.toTable(zeroWidth);
+        var hTable = Arrays.toTable(zeroHeight);
 
         //then
         assertThat(wTable, is(""));

@@ -3,12 +3,12 @@ package com.vilisimo.ads.algorithms.transforming;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-public class ArrayVisualiser {
+public class Arrays {
 
     private static final String TRUE = "*";
     private static final String FALSE = " ";
 
-    private ArrayVisualiser() {
+    private Arrays() {
         throw new AssertionError("The class should not be instantiated");
     }
 
