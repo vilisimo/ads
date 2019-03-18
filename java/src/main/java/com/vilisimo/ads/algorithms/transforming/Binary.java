@@ -2,11 +2,7 @@ package com.vilisimo.ads.algorithms.transforming;
 
 import com.vilisimo.ads.helpers.NumberValidator;
 
-public final class Binary {
-
-    private Binary() {
-        throw new AssertionError("The class should not be instantiated");
-    }
+public class Binary {
 
     /**
      * Similar as {@link Integer#toBinaryString}, but not as robust.
