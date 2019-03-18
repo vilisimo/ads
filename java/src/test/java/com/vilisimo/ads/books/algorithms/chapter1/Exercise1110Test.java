@@ -10,13 +10,7 @@ public class Exercise1110Test {
     @Test
     public void transformsTwoRowsThreeColumnsToTable() {
         //given
-        var input = new boolean[2][3];
-        input[0][0] = true;
-        input[0][1] = false;
-        input[0][2] = true;
-        input[1][0] = true;
-        input[1][1] = true;
-        input[1][2] = true;
+        var input = new boolean[][] { {true, false, true}, {true, true, true}};
 
         //when
         var result = Exercise1110.toTable(input);
