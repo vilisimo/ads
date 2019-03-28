@@ -7,7 +7,7 @@ public class Exercise1114 {
     /**
      * Calculates base 2 logarithm.
      * @param n a number for which to calculate base 2 logarithm
-     * @return
+     * @return log2 of n
      */
     public static int lg(int n) {
         NumberValidator.greaterThan(0, n);
