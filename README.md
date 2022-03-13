@@ -30,6 +30,7 @@
 * Queue: [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/structures/queue), [Python](../../blob/master/python/structures/queue.py)
 
 ## LeetCode Exercises
+* [Exercise 0001 - Two Sum](https://leetcode.com/problems/two-sum/solution/): [Python](../../blob/master/python/leetcode/ex0001.py)
 * [Exercise 0771 - Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/): [Python](../../blob/master/python/leetcode/ex0771.py)
 
 ## Books
