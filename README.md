@@ -40,11 +40,19 @@ Note that only those exercises that seem to be interesting and require a bit of 
 ## Launching Tests
 
 ### Python
-Easiest way to launch tests is to do that via PyCharm. Alternatively, they
-can be launched by issuing this command in `ads/python/` directory:
+Easiest way to launch tests is to run the following command:
 
 ~~~
-python3 -m unittest
+cd python/
+pytest
+~~~
+
+For that, the expectation is that the environment is initialized and `pytest`
+is installed:
+
+~~~
+python3.10 -m venv env
+pip install -r requirements.txt
 ~~~
 
 ### Java
