@@ -1,6 +1,6 @@
 import unittest
 
-from leetcode.ex771 import Solution
+from leetcode.ex0771 import Solution
 
 
 class TestClass(unittest.TestCase):

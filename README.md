@@ -30,7 +30,7 @@
 * Queue: [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/structures/queue), [Python](../../blob/master/python/structures/queue.py)
 
 ## LeetCode Exercises
-* Exercise 771 - Jewels and Stones: [Python](../../blob/master/python/leetcode/ex771.py)
+* [Exercise 0771 - Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/): [Python](../../blob/master/python/leetcode/ex0771.py)
 
 ## Books
 * *Algorithms* (2011) by Robert Sedgewick & Kevin Wayne: [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/books/algorithms)
