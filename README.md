@@ -31,6 +31,7 @@
 
 ## LeetCode Exercises
 * [Exercise 0001](https://leetcode.com/problems/two-sum/) - Two Sum: [Python](../../blob/master/python/leetcode/ex0001.py)
+* [Exercise 0009](https://leetcode.com/problems/palindrome-number/) - Palindrome Number: [Python](../../blob/master/python/leetcode/ex0009.py)
 * [Exercise 0771](https://leetcode.com/problems/jewels-and-stones/) - Jewels and Stones: [Python](../../blob/master/python/leetcode/ex0771.py)
 
 ## Books
