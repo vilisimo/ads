@@ -1,6 +1,6 @@
 import pytest
 
-from leetcode.ex0013 import InitialSolution, ImprovedSolution
+from leetcode.easy.ex0013 import InitialSolution, ImprovedSolution
 
 
 @pytest.mark.parametrize('roman, expected', [

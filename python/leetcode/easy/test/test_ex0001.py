@@ -1,4 +1,4 @@
-from leetcode.ex0001 import Solution
+from leetcode.easy.ex0001 import Solution
 
 
 def test_finds_answer_with_two_numbers():

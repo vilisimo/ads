@@ -1,6 +1,6 @@
 import pytest
 
-from leetcode.ex0009 import StringSolution, InitialSolution, HalfNumberSolution
+from leetcode.easy.ex0009 import StringSolution, InitialSolution, HalfNumberSolution
 
 
 @pytest.mark.parametrize('number', [121, 222, 0, 1, 123454321])

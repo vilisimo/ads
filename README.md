@@ -30,10 +30,10 @@
 * Queue: [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/structures/queue), [Python](../../blob/master/python/structures/queue.py)
 
 ## LeetCode Exercises
-* [Exercise 0001](https://leetcode.com/problems/two-sum/) - Two Sum: [Python](../../blob/master/python/leetcode/ex0001.py)
-* [Exercise 0009](https://leetcode.com/problems/palindrome-number/) - Palindrome Number: [Python](../../blob/master/python/leetcode/ex0009.py)
-* [Exercise 0013](https://leetcode.com/problems/roman-to-integer/) - Roman to Integer: [Python](../../blob/master/python/leetcode/ex0013.py)
-* [Exercise 0771](https://leetcode.com/problems/jewels-and-stones/) - Jewels and Stones: [Python](../../blob/master/python/leetcode/ex0771.py)
+* [Exercise 0001](https://leetcode.com/problems/two-sum/) - Two Sum: [Python](../../blob/master/python/leetcode/easy/ex0001.py)
+* [Exercise 0009](https://leetcode.com/problems/palindrome-number/) - Palindrome Number: [Python](../../blob/master/python/easy/leetcode/ex0009.py)
+* [Exercise 0013](https://leetcode.com/problems/roman-to-integer/) - Roman to Integer: [Python](../../blob/master/python/easy/leetcode/ex0013.py)
+* [Exercise 0771](https://leetcode.com/problems/jewels-and-stones/) - Jewels and Stones: [Python](../../blob/master/python/easy/leetcode/ex0771.py)
 
 ## Books
 * *Algorithms* (2011) by Robert Sedgewick & Kevin Wayne: [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/books/algorithms)
