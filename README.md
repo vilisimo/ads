@@ -30,6 +30,8 @@
 * Queue: [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/structures/queue), [Python](../../blob/master/python/structures/queue.py)
 
 ## LeetCode Exercises
+
+### Easy
 * [Exercise 0001](https://leetcode.com/problems/two-sum/) - Two Sum: [Python](../../blob/master/python/leetcode/easy/ex0001.py)
 * [Exercise 0009](https://leetcode.com/problems/palindrome-number/) - Palindrome Number: [Python](../../blob/master/python/easy/leetcode/ex0009.py)
 * [Exercise 0013](https://leetcode.com/problems/roman-to-integer/) - Roman to Integer: [Python](../../blob/master/python/easy/leetcode/ex0013.py)
