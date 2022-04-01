@@ -38,6 +38,7 @@
 * [Exercise 0014](https://leetcode.com/problems/longest-common-prefix) - Longest Common Prefix: [Python](../../blob/master/python/leetcode/easy/ex0014.py)
 * [Exercise 0020](https://leetcode.com/problems/valid-parentheses/) - Valid Parentheses: [Python](../../blob/master/python/leetcode/easy/ex0020.py)
 * [Exercise 0021](https://leetcode.com/problems/merge-two-sorted-lists/) - Merge Two Sorted Lists: [Python](../../blob/master/python/leetcode/easy/ex0021.py)
+* [Exercise 0026](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) - Remove Duplicates from Sorted Array: [Python](../../blob/master/python/leetcode/easy/ex0026.py)
 * [Exercise 0771](https://leetcode.com/problems/jewels-and-stones/) - Jewels and Stones: [Python](../../blob/master/python/leetcode/easy/ex0771.py)
 
 ## Books
