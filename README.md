@@ -40,6 +40,7 @@
 * [Exercise 0021](https://leetcode.com/problems/merge-two-sorted-lists/) - Merge Two Sorted Lists: [Python](../../blob/master/python/leetcode/easy/ex0021.py)
 * [Exercise 0026](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) - Remove Duplicates from Sorted Array: [Python](../../blob/master/python/leetcode/easy/ex0026.py)
 * [Exercise 0027](https://leetcode.com/problems/remove-element/) - Remove Element: [Python](../../blob/master/python/leetcode/easy/ex0027.py)
+* [Exercise 0028](https://leetcode.com/problems/implement-strstr/) - Implement strStr: [Python](../../blob/master/python/leetcode/easy/ex0028.py)
 * [Exercise 0771](https://leetcode.com/problems/jewels-and-stones/) - Jewels and Stones: [Python](../../blob/master/python/leetcode/easy/ex0771.py)
 
 ## Books
