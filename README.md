@@ -43,6 +43,7 @@
 * [Exercise 0028](https://leetcode.com/problems/implement-strstr/) - Implement strStr: [Python](../../blob/master/python/leetcode/easy/ex0028.py)
 * [Exercise 0035](https://leetcode.com/problems/search-insert-position/) - Search Insert Position: [Python](../../blob/master/python/leetcode/easy/ex0035.py)
 * [Exercise 0053](https://leetcode.com/problems/maximum-subarray) - Maximum Subarray: [Python](../../blob/master/python/leetcode/easy/ex0053.py)
+* [Exercise 0058](https://leetcode.com/problems/length-of-last-word//) - Length of Last Word: [Python](../../blob/master/python/leetcode/easy/ex0058.py)
 * [Exercise 0771](https://leetcode.com/problems/jewels-and-stones/) - Jewels and Stones: [Python](../../blob/master/python/leetcode/easy/ex0771.py)
 
 ## Books
