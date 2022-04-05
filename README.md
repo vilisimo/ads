@@ -45,6 +45,7 @@
 * [Exercise 0053](https://leetcode.com/problems/maximum-subarray) - Maximum Subarray: [Python](../../blob/master/python/leetcode/easy/ex0053.py)
 * [Exercise 0058](https://leetcode.com/problems/length-of-last-word/) - Length of Last Word: [Python](../../blob/master/python/leetcode/easy/ex0058.py)
 * [Exercise 0066](https://leetcode.com/problems/plus-one/) - Plus One: [Python](../../blob/master/python/leetcode/easy/ex0066.py)
+* [Exercise 0067](https://leetcode.com/problems/add-binary/) - Add Binary: [Python](../../blob/master/python/leetcode/easy/ex0067.py)
 * [Exercise 0771](https://leetcode.com/problems/jewels-and-stones/) - Jewels and Stones: [Python](../../blob/master/python/leetcode/easy/ex0771.py)
 
 ## Books
