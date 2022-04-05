@@ -56,7 +56,7 @@ class InitialSolution:
         for idx in range(len(nums)):
             if nums[idx] != val:
                 if idx != current:
-                    nums[idx], nums[current] = nums[current], nums[idx],
+                    nums[idx], nums[current] = nums[current], nums[idx]
                 current += 1
 
         return current
