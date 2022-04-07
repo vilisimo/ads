@@ -48,6 +48,7 @@
 * [Exercise 0067](https://leetcode.com/problems/add-binary/) - Add Binary: [Python](../../blob/master/python/leetcode/easy/ex0067.py)
 * [Exercise 0069](https://leetcode.com/problems/sqrtx/) - Sqrt(x): [Python](../../blob/master/python/leetcode/easy/ex0069.py)
 * [Exercise 0070](https://leetcode.com/problems/climbing-stairs/) - Climbing stairs: [Python](../../blob/master/python/leetcode/easy/ex0070.py)
+* [Exercise 0083](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) - Remove Duplicates from Sorted List: [Python](../../blob/master/python/leetcode/easy/ex0083.py)
 * [Exercise 0771](https://leetcode.com/problems/jewels-and-stones/) - Jewels and Stones: [Python](../../blob/master/python/leetcode/easy/ex0771.py)
 
 ## Books
