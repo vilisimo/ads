@@ -51,6 +51,7 @@
 * [Exercise 0083](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) - Remove Duplicates from Sorted List: [Python](../../blob/master/python/leetcode/easy/ex0083.py)
 * [Exercise 0088](https://leetcode.com/problems/merge-sorted-array/) - Merge Sorted Array: [Python](../../blob/master/python/leetcode/easy/ex0088.py)
 * [Exercise 0094](https://leetcode.com/problems/binary-tree-inorder-traversal/) - Binary Tree Inorder Traversal: [Python](../../blob/master/python/leetcode/easy/ex0094.py)
+* [Exercise 0100](https://leetcode.com/problems/same-tree/) - Same Tree: [Python](../../blob/master/python/leetcode/easy/ex0100.py)
 * [Exercise 0771](https://leetcode.com/problems/jewels-and-stones/) - Jewels and Stones: [Python](../../blob/master/python/leetcode/easy/ex0771.py)
 
 ## Books
