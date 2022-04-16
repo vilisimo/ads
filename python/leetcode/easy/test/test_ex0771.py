@@ -1,25 +1,14 @@
-import unittest
-
 from leetcode.easy.ex0771 import Solution
 
 
-class TestClass(unittest.TestCase):
+def test_empty_jewels():
+    result = Solution().numJewelsInStones("", "ABC")
+    assert result == 0
 
-    def setUp(self):
-        self.solution = Solution()
+def test_non_empty_jewels():
+    result = Solution().numJewelsInStones("AB", "AAACBBL")
+    assert result == 5
 
-    def test_empty_jewels(self):
-        result = self.solution.numJewelsInStones("", "ABC")
-        assert result == 0
- 
-    def test_non_empty_jewels(self):
-        result = self.solution.numJewelsInStones("AB", "AAACBBL")
-        assert result == 5
- 
-    def test_mixed_case_jewels(self):
-        result = self.solution.numJewelsInStones("aA", "aAAbbbb")
-        assert result == 3
-
-
-if __name__ == "__main__":
-    unittest.main()
+def test_mixed_case_jewels():
+    result = Solution().numJewelsInStones("aA", "aAAbbbb")
+    assert result == 3
