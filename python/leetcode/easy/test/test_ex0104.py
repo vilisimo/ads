@@ -2,7 +2,7 @@ import pytest
 
 from leetcode.easy.ex0104 import (
     InitialRecursiveSolution,
-    ImproveddRecursiveSolution,
+    ImprovedRecursiveSolution,
     InitialIterativeSolution,
     TreeNode,
 )
@@ -12,14 +12,14 @@ from leetcode.easy.ex0104 import (
 def test_null_tree():
     assert InitialRecursiveSolution().maxDepth(None) == 0
     assert InitialIterativeSolution().maxDepth(None) == 0
-    assert ImproveddRecursiveSolution().maxDepth(None) == 0
+    assert ImprovedRecursiveSolution().maxDepth(None) == 0
 
 def test_single_level_tree():
     root = TreeNode(val=1)
 
     assert InitialRecursiveSolution().maxDepth(root) == 1
     assert InitialIterativeSolution().maxDepth(root) == 1
-    assert ImproveddRecursiveSolution().maxDepth(root) == 1
+    assert ImprovedRecursiveSolution().maxDepth(root) == 1
 
 
 def test_two_level_tree():
@@ -28,7 +28,7 @@ def test_two_level_tree():
 
     assert InitialRecursiveSolution().maxDepth(root) == 2
     assert InitialIterativeSolution().maxDepth(root) == 2
-    assert ImproveddRecursiveSolution().maxDepth(root) == 2
+    assert ImprovedRecursiveSolution().maxDepth(root) == 2
 
 
 def test_two_level_symmetrical_tree():
@@ -38,7 +38,7 @@ def test_two_level_symmetrical_tree():
 
     assert InitialRecursiveSolution().maxDepth(root) == 2
     assert InitialIterativeSolution().maxDepth(root) == 2
-    assert ImproveddRecursiveSolution().maxDepth(root) == 2
+    assert ImprovedRecursiveSolution().maxDepth(root) == 2
 
 
 def test_multi_level_tree():
@@ -52,7 +52,7 @@ def test_multi_level_tree():
 
     assert InitialRecursiveSolution().maxDepth(root) == 3
     assert InitialIterativeSolution().maxDepth(root) == 3
-    assert ImproveddRecursiveSolution().maxDepth(root) == 3
+    assert ImprovedRecursiveSolution().maxDepth(root) == 3
 
 
 def test_multi_level_balanced_tree():
@@ -68,4 +68,4 @@ def test_multi_level_balanced_tree():
 
     assert InitialRecursiveSolution().maxDepth(root) == 3
     assert InitialIterativeSolution().maxDepth(root) == 3
-    assert ImproveddRecursiveSolution().maxDepth(root) == 3
+    assert ImprovedRecursiveSolution().maxDepth(root) == 3

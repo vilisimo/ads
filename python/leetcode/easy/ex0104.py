@@ -42,7 +42,7 @@ class InitialRecursiveSolution:
         return max(left_depth, right_depth)
 
 
-class ImproveddRecursiveSolution:
+class ImprovedRecursiveSolution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
         if not root:
             return 0
