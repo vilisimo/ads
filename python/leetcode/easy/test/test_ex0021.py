@@ -1,6 +1,3 @@
-import pytest
-
-
 from leetcode.easy.ex0021 import ListNode, InitialSolution
 
 
@@ -57,7 +54,3 @@ def test_merges_two_lists_in_non_decreasing_order_when_multiple_nodes_present():
     assert result.next.next.val == 2
     assert result.next.next.next.val == 3
     assert not result.next.next.next.next
-
-
-def test_merges_two_lists_in_non_decreasing_order():
-    pass

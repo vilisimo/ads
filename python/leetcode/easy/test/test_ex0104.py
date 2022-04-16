@@ -1,5 +1,3 @@
-import pytest
-
 from leetcode.easy.ex0104 import (
     InitialRecursiveSolution,
     ImprovedRecursiveSolution,

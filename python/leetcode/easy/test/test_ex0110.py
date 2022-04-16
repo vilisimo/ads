@@ -1,5 +1,3 @@
-import pytest
-
 from leetcode.easy.ex0110 import TreeNode, InitialRecursiveSolution
 
 
