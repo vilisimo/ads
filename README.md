@@ -56,6 +56,7 @@
 * [Exercise 0104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) - Maximum Depth of Binary Tree: [Python](../../blob/master/python/leetcode/easy/ex0104.py)
 * [Exercise 0108](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) - Convert Sorted Array to Binary Search Tree: [Python](../../blob/master/python/leetcode/easy/ex0108.py)
 * [Exercise 0110](https://leetcode.com/problems/balanced-binary-tree/) - Balanced Binary Tree: [Python](../../blob/master/python/leetcode/easy/ex0110.py)
+* [Exercise 0111](https://leetcode.com/problems/minimum-depth-of-binary-tree/) - Minimum Depth of Binary Tree: [Python](../../blob/master/python/leetcode/easy/ex0111.py)
 * [Exercise 0771](https://leetcode.com/problems/jewels-and-stones/) - Jewels and Stones: [Python](../../blob/master/python/leetcode/easy/ex0771.py)
 
 ## Books
