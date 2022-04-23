@@ -61,6 +61,7 @@
 * [Exercise 0118](https://leetcode.com/problems/pascals-triangle/) - Pascal's Triangle: [Python](../../blob/master/python/leetcode/easy/ex0118.py)
 * [Exercise 0119](https://leetcode.com/problems/pascals-triangle-ii/) - Pascal's Triangle II: [Python](../../blob/master/python/leetcode/easy/ex0119.py)
 * [Exercise 0121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/) - Best Time to Buy and Sell Stock: [Python](../../blob/master/python/leetcode/easy/ex0121.py)
+* [Exercise 0125](https://leetcode.com/problems/valid-palindrome/) - Valid Palindrome: [Python](../../blob/master/python/leetcode/easy/ex0125.py)
 * [Exercise 0771](https://leetcode.com/problems/jewels-and-stones/) - Jewels and Stones: [Python](../../blob/master/python/leetcode/easy/ex0771.py)
 
 ## Books
