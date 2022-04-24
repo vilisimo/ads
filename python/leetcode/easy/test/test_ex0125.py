@@ -15,5 +15,5 @@ from leetcode.easy.ex0125 import InitialSolution
     ("fortune", False),
     ("karnmrak", False),
 ])
-def test_temp(chars: str, expected: bool):
+def test_recognizes_palindrome(chars: str, expected: bool):
     assert InitialSolution().isPalindrome(chars) == expected
