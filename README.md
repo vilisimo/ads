@@ -64,6 +64,7 @@
 * [Exercise 0125](https://leetcode.com/problems/valid-palindrome/) - Valid Palindrome: [Python](../../blob/master/python/leetcode/easy/ex0125.py)
 * [Exercise 0136](https://leetcode.com/problems/single-number/submissions/) - Single Number: [Python](../../blob/master/python/leetcode/easy/ex0136.py)
 * [Exercise 0141](https://leetcode.com/problems/linked-list-cycle/) - Linked List Cycle: [Python](../../blob/master/python/leetcode/easy/ex0141.py)
+* [Exercise 0144](https://leetcode.com/problems/binary-tree-preorder-traversal/) - Binary Tree Preorder Traversal: [Python](../../blob/master/python/leetcode/easy/ex0144.py)
 * [Exercise 0771](https://leetcode.com/problems/jewels-and-stones/) - Jewels and Stones: [Python](../../blob/master/python/leetcode/easy/ex0771.py)
 
 ## Books
