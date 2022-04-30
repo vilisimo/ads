@@ -67,6 +67,7 @@
 * [Exercise 0144](https://leetcode.com/problems/binary-tree-preorder-traversal/) - Binary Tree Preorder Traversal: [Python](../../blob/master/python/leetcode/easy/ex0144.py)
 * [Exercise 0145](https://leetcode.com/problems/binary-tree-postorder-traversal/) - Binary Tree Postorder Traversal: [Python](../../blob/master/python/leetcode/easy/ex0145.py)
 * [Exercise 0155](https://leetcode.com/problems/min-stack/) - Min Stack: [Python](../../blob/master/python/leetcode/easy/ex0155.py)
+* [Exercise 0160](https://leetcode.com/problems/intersection-of-two-linked-lists/) - Intersection of Two Linked Lists: [Python](../../blob/master/python/leetcode/easy/ex0160.py)
 * [Exercise 0771](https://leetcode.com/problems/jewels-and-stones/) - Jewels and Stones: [Python](../../blob/master/python/leetcode/easy/ex0771.py)
 
 ## Books
