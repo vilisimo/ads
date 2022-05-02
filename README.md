@@ -69,6 +69,7 @@
 * [Exercise 0155](https://leetcode.com/problems/min-stack/) - Min Stack: [Python](../../blob/master/python/leetcode/easy/ex0155.py)
 * [Exercise 0160](https://leetcode.com/problems/intersection-of-two-linked-lists/) - Intersection of Two Linked Lists: [Python](../../blob/master/python/leetcode/easy/ex0160.py)
 * [Exercise 0168](https://leetcode.com/problems/excel-sheet-column-title/) - Excel Sheet Column Title: [Python](../../blob/master/python/leetcode/easy/ex0168.py)
+* [Exercise 0169](https://leetcode.com/problems/majority-element/) - Majority Element: [Python](../../blob/master/python/leetcode/easy/ex0169.py)
 * [Exercise 0771](https://leetcode.com/problems/jewels-and-stones/) - Jewels and Stones: [Python](../../blob/master/python/leetcode/easy/ex0771.py)
 
 ## Books
