@@ -72,6 +72,7 @@
 * [Exercise 0169](https://leetcode.com/problems/majority-element/) - Majority Element: [Python](../../blob/master/python/leetcode/easy/ex0169.py)
 * [Exercise 0171](https://leetcode.com/problems/excel-sheet-column-number/) - Excel Sheet Column Number: [Python](../../blob/master/python/leetcode/easy/ex0171.py)
 * [Exercise 0190](https://leetcode.com/problems/reverse-bits/) - Reverse Bits: [Python](../../blob/master/python/leetcode/easy/ex0190.py)
+* [Exercise 0202](https://leetcode.com/problems/happy-number/) - Happy Number: [Python](../../blob/master/python/leetcode/easy/ex0202.py)
 * [Exercise 0771](https://leetcode.com/problems/jewels-and-stones/) - Jewels and Stones: [Python](../../blob/master/python/leetcode/easy/ex0771.py)
 
 ## Books
