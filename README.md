@@ -75,6 +75,7 @@
 * [Exercise 0191](https://leetcode.com/problems/number-of-1-bits/) - Number of 1 Bits: [Python](../../blob/master/python/leetcode/easy/ex0191.py)
 * [Exercise 0202](https://leetcode.com/problems/happy-number/) - Happy Number: [Python](../../blob/master/python/leetcode/easy/ex0202.py)
 * [Exercise 0203](https://leetcode.com/problems/remove-linked-list-elements/) - Remove Linked List Elements: [Python](../../blob/master/python/leetcode/easy/ex0203.py)
+* [Exercise 0205](https://leetcode.com/problems/isomorphic-strings/) - Isomorphic Strings: [Python](../../blob/master/python/leetcode/easy/ex0205.py)
 * [Exercise 0771](https://leetcode.com/problems/jewels-and-stones/) - Jewels and Stones: [Python](../../blob/master/python/leetcode/easy/ex0771.py)
 
 ## Books
