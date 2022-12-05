@@ -1,6 +1,6 @@
 import pytest
 
-from leetcode.easy.ex0028 import BuiltInSolution, NoBuiltInSolution
+from ex0028 import BuiltInSolution, NoBuiltInSolution
 
 
 @pytest.mark.parametrize('haystack, needle, expected', [
