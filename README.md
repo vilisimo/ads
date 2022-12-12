@@ -81,6 +81,11 @@
 * [Exercise 0219](https://leetcode.com/problems/contains-duplicate/) - Contains Duplicate II: [Python](../../blob/master/python/leetcode/easy/ex0219.py)
 * [Exercise 0771](https://leetcode.com/problems/jewels-and-stones/) - Jewels and Stones: [Python](../../blob/master/python/leetcode/easy/ex0771.py)
 
+### Medium
+* [Exercise 0011](https://leetcode.com/problems/container-with-most-water/) - Container with Most Water: [Python](../../blob/master/python/leetcode/medium/ex0000_0100/ex0011.py)
+* [Exercise 0028](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) - Find the Index of the First Occurrence in a String: [Python](../../blob/master/python/leetcode/medium/ex0000_0100/ex0028.py)
+* [Exercise 0209](https://leetcode.com/problems/minimum-size-subarray-sum/) - Minimum Size Subarray Sum: [Python](../../blob/master/python/leetcode/medium/ex0101_0200/ex0209.py)
+
 ## Books
 * *Algorithms* (2011) by Robert Sedgewick & Kevin Wayne: [Java](../../blob/master/java/src/main/java/com/vilisimo/ads/books/algorithms)
 
