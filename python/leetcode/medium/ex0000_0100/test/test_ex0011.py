@@ -1,6 +1,6 @@
 import pytest
 
-from ex0011 import InitialSolution
+from leetcode.medium.ex0000_0100.ex0011 import InitialSolution
 
 
 @pytest.mark.parametrize("input, expected", [
