@@ -79,7 +79,9 @@
 * [Exercise 0206](https://leetcode.com/problems/reverse-linked-list/) - Reverse Linked List: [Python](../../blob/master/python/leetcode/easy/ex0206.py)
 * [Exercise 0217](https://leetcode.com/problems/contains-duplicate/) - Contains Duplicate: [Python](../../blob/master/python/leetcode/easy/ex0217.py)
 * [Exercise 0219](https://leetcode.com/problems/contains-duplicate/) - Contains Duplicate II: [Python](../../blob/master/python/leetcode/easy/ex0219.py)
+* [Exercise 0242](https://leetcode.com/problems/valid-anagram/) - Valid Anagram: [Python](../../blob/master/python/leetcode/easy/ex0242.py)
 * [Exercise 0771](https://leetcode.com/problems/jewels-and-stones/) - Jewels and Stones: [Python](../../blob/master/python/leetcode/easy/ex0771.py)
+* [Exercise 0860](https://leetcode.com/problems/valid-anagram/) - Lemonade Change: [Python](../../blob/master/python/leetcode/easy/ex0860.py)
 
 ### Medium
 * [Exercise 0011](https://leetcode.com/problems/container-with-most-water/) - Container with Most Water: [Python](../../blob/master/python/leetcode/medium/ex0000_0100/ex0011.py)
