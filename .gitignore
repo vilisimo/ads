@@ -22,3 +22,6 @@ TODO.md
 # Dependency Management 
 .gradle/
 build/
+
+# Mac
+.DS_Store
