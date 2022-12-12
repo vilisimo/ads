@@ -1,6 +1,6 @@
 import pytest
 
-from leetcode.easy.ex_0014 import (
+from leetcode.easy.ex0014 import (
     HorizontalSolution, 
     VerticalSolution, 
     DivideAndConquerSolution, 
