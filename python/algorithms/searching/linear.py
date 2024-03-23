@@ -1,4 +1,4 @@
-def search(collection, target):
+def search(collection, target) -> int:
     if collection is None or not target:
         raise TypeError("Arguments cannot be of type None")
 

@@ -5,23 +5,18 @@
 # backwards until it is found)
 
 
-def search(collection, target):
-    if collection is None or not target:
-        raise TypeError("Arguments cannot be of type None")
+def search(collection, target) -> int:
+  if collection is None or not target:
+    raise TypeError("Arguments cannot be of type None")
 
-    low = 0
-    high = len(collection) - 1
+  start, end = 0, len(collection) - 1
 
-    while low <= high:
-        middle = (low + high) // 2
-        guess = collection[middle]
-
-        if guess == target:
-            return middle
-        elif collection[middle] > target:
-            high = middle - 1
-
-        else:
-            low = middle + 1
-
-    return -1
+  while start <= end:
+    mid = (start + end) // 2
+    if (collection[mid] == target):
+      return mid
+    if (collection[mid] < target):
+      start = mid + 1
+    else:
+      end = mid - 1
+  return -1
